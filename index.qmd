@@ -5,13 +5,13 @@ pagetitle: "Indra P. Acharja | Conservation Biologist"
 
 ```{=html}
 <div class="hero-banner">
-  <img src="cover_photo.jpg" class="hero-img" alt="White-bellied Heron habitat, Bhutan">
+  <img src="photos/cover_photo.jpg" class="hero-img" alt="White-bellied Heron habitat, Bhutan">
 </div>
 
 <div class="home-grid">
   <div>
     <div class="profile-photo">
-      <img src="profile_photo.jpg" alt="Indra P. Acharja">
+      <img src="photos/profile_photo.jpg" alt="Indra P. Acharja">
     </div>
   </div>
 
