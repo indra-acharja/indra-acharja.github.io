@@ -1,0 +1,29 @@
+{
+  "blog.qmd": {
+    "blog.html": "450fc086"
+  },
+  "index.qmd": {
+    "index.html": "aab51d66"
+  },
+  "posts/2023-09-why-phd/index.qmd": {
+    "index.html": "aa13337b"
+  },
+  "posts/2023-10-ai-monitoring/index.qmd": {
+    "index.html": "975c2260"
+  },
+  "posts/2024-01-ex-situ-lessons/index.qmd": {
+    "index.html": "130b995c"
+  },
+  "posts/2024-03-winter-survey/index.qmd": {
+    "index.html": "c3dc674a"
+  },
+  "publications.qmd": {
+    "publications.html": "d21455d3"
+  },
+  "research.qmd": {
+    "research.html": "496df389"
+  },
+  "posts/2025-09-climate-smart/index.qmd": {
+    "index.html": "ab05b829"
+  }
+}

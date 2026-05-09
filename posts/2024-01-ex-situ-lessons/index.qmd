@@ -1,0 +1,34 @@
+---
+title: "What does it take to establish the world's first ex-situ population of a critically endangered heron?"
+description: "In April 2021 we collected two pre-fledged White-bellied Heron chicks from a wild nest in Bhutan. Here's what we learned from building the world's only captive population of this species."
+author: "Indra P. Acharja"
+date: "2024-01-15"
+categories: [Conservation Science, Conservation Breeding, Bhutan]
+image: ""
+---
+
+In April 2021, my colleagues and I stood in a forest beside the Mangdechhu river in Bhutan and made a decision that had never been made before for this species: we were going to collect two chicks from a wild nest and transfer them to a newly constructed Conservation Center.
+
+It was not a decision taken lightly. Removing individuals from a wild population that numbers fewer than 60 is a serious intervention. But the IUCN Species Survival Commission had assessed the situation and concluded that the risk of inaction — losing the entire wild population before we could establish any safety net — was greater than the risk of the collection itself. We had a facility. We had a plan. We had the government's support. We went ahead.
+
+## Why ex-situ conservation?
+
+The White-bellied Heron faces a trajectory that conservation biologists recognize as dangerous: a small, fragmented population with declining reproductive success, restricted to a narrow geographic range, facing multiple simultaneous threats. The wild population alone is not a secure future for the species.
+
+An ex-situ population serves several purposes. First, it is an insurance policy: if something catastrophic happens to the wild population — a disease outbreak, a bad drought, a sudden collapse in prey — there is a gene pool that can anchor a recovery program. Second, a captive population allows researchers to study aspects of biology that are nearly impossible to examine in the wild: breeding behaviour, dietary requirements, disease susceptibility, growth rates. Third, birds raised in captivity, if managed well, can eventually become founders for reintroduction programs into restored or newly secured wild habitats.
+
+## What we found out
+
+The first years of the Conservation Center were as much a learning experience as a success story. White-bellied Herons had never been kept in captivity before. There were no established husbandry protocols, no nutritional guidelines, no guidance from other institutions because no other institution had attempted this.
+
+We worked closely with veterinarians and with zoo professionals who had experience with related heron species. We experimented with diet — the birds are specialist fish-eaters in the wild, and finding a captive diet that met their nutritional needs while being practically manageable was a significant challenge. We designed enclosures that balanced the birds' need for space and environmental complexity with the need for health monitoring.
+
+The birds survived. They grew. By 2022, the first pair had begun showing breeding behaviour in captivity — a milestone nobody had achieved before with this species.
+
+## What comes next
+
+The Conservation Center is now a functioning facility, but it is still young. The immediate priorities are: expanding the captive population carefully; developing robust health monitoring protocols; and beginning the long process of developing reintroduction science — identifying which wild sites might be suitable for future release, and what habitat restoration would need to happen first.
+
+It will be a long process. Ex-situ conservation programs for birds typically operate over decades before reintroduction becomes feasible. But the alternative — watching the last wild population dwindle without any backup — was not an option we were prepared to accept.
+
+The two chicks we collected in 2021 are now adults. They are alive. That, for now, is enough.

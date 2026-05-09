@@ -1,0 +1,38 @@
+---
+title: "A winter survey on the Punatsangchhu: searching for the world's rarest heron"
+description: "The Punatsangchhu is one of Bhutan's great rivers — fast, cold, and flanked by sal forest and gravel bars. For a few months each winter it hosts one of the last holdouts of the White-bellied Heron. This is what a survey day looks like."
+author: "Indra P. Acharja"
+date: "2024-03-10"
+categories: [Field Notes, White-bellied Heron, Bhutan]
+image: ""
+---
+
+The alarm sounds at 4:30am. Outside, the Punatsangchhu valley is still dark, and the river — audible even from the guesthouse — is running fast and cold from the glaciers upstream. By the time we reach the survey point, the sky is turning from black to a deep, slate blue.
+
+This is the time. If there is a White-bellied Heron on this stretch, it will be moving to its feeding sites before full daylight.
+
+## Why the Punatsangchhu
+
+The Punatsangchhu river basin in central Bhutan is one of the most important known sites for the White-bellied Heron globally. It has consistently held the largest concentration of the species — at peak counts, between 10 and 15 individuals have been recorded here — and it contains several of the few known active breeding territories.
+
+What makes it suitable is a combination of factors: sections of fast-flowing, boulder-strewn river with gravel bars and clear water that hold the large fish the herons depend on; intact riverine forest along the banks for nesting; and relatively low human disturbance in key segments. The Punatsangchhu is not pristine — there is fishing pressure, some agricultural encroachment at the margins, and the shadow of a major hydropower project — but it remains the closest thing to optimal habitat this species has anywhere.
+
+## The survey protocol
+
+We conduct point counts at fixed locations along the river, separated by a distance that prevents double-counting. Each survey point is watched for 20 minutes. We record all White-bellied Herons seen or heard, and note behaviour: flying, feeding, resting, or engaged in territory interactions.
+
+The work is slow and often yields nothing. A single survey morning might produce zero detections across a stretch that we know holds herons. The birds are cryptic, they move long distances, and in winter some individuals shift to different parts of the river system. A zero count doesn't mean the heron isn't there.
+
+This is one of the core challenges of monitoring an extremely rare species: the detection probability for any individual in any single survey is low. Building a reliable population estimate requires repeated surveys across multiple sites and seasons, analyzed with statistical models that explicitly account for imperfect detection.
+
+## What we have learned about numbers
+
+When I began systematic surveys of the Punatsangchhu in 2015, the population appeared stable — between 8 and 12 individuals detected annually in this basin. By the early 2020s, the picture had become more concerning. Detections were more variable between years, and — most worryingly — the number of successful nesting attempts appeared to be declining.
+
+Our 2025 paper in *Avian Conservation and Ecology* uses an integrated population model to synthesize these data and project forward under different conservation scenarios. The results are sobering. Without active intervention, the modelled probability of extinction within decades is not negligible.
+
+## A note on hope
+
+This is heavy work to carry. Every winter, when I walk these riverbanks, I am aware that the birds I am looking for may number fewer than the fingers on two hands in this entire river system.
+
+But there is also something remarkable about being here at all — that this species persists, that people in Bhutan have dedicated their careers to protecting it, that a growing international community of researchers and conservationists cares deeply about its future. The Punatsangchhu at dawn, with the chance that a White-bellied Heron might appear from the mist and alight on a gravel bar, is one of the most extraordinary experiences in birdwatching. That it is still possible is worth protecting.

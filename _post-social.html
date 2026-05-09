@@ -1,0 +1,171 @@
+<style>
+.post-social-bar {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0dcd6;
+  font-family: 'Outfit', sans-serif;
+}
+.post-share-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.8rem;
+}
+.share-label {
+  font-size: 0.82rem;
+  color: #7a7060;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-right: 0.3rem;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid #ccc8c0;
+  background: transparent;
+  color: #444;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.18s ease;
+  font-family: 'Outfit', sans-serif;
+}
+.share-btn:hover { border-color: #2a6b7c; color: #2a6b7c; background: #edf5f7; }
+.share-btn.copied { border-color: #3a7c3a; color: #3a7c3a; background: #edf5ed; }
+.like-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: 1.5px solid #ccc8c0;
+  border-radius: 20px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.88rem;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  font-family: 'Outfit', sans-serif;
+  margin-left: auto;
+}
+.like-btn:hover { border-color: #c0392b; color: #c0392b; }
+.like-btn.liked { border-color: #c0392b; color: #c0392b; background: #fdf0ee; }
+.like-btn .heart { font-size: 1rem; }
+.post-comments-section {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0dcd6;
+}
+.post-comments-section h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2c2820;
+  margin-bottom: 1.2rem;
+}
+</style>
+
+<div class="post-social-bar">
+  <div class="post-share-row">
+    <span class="share-label">Share</span>
+    <!-- Facebook -->
+    <button class="share-btn" onclick="shareToFacebook()" title="Share on Facebook">f</button>
+    <!-- X / Twitter -->
+    <button class="share-btn" onclick="shareToX()" title="Share on X" style="font-family:serif;">𝕏</button>
+    <!-- LinkedIn -->
+    <button class="share-btn" onclick="shareToLinkedIn()" title="Share on LinkedIn" style="font-size:0.78rem;">in</button>
+    <!-- Copy link -->
+    <button class="share-btn" id="copyBtn" onclick="copyLink()" title="Copy link">🔗</button>
+    <!-- Like -->
+    <button class="like-btn" id="likeBtn" onclick="toggleLike()">
+      <span class="heart" id="likeHeart">♡</span>
+      <span id="likeCount">0</span>
+    </button>
+  </div>
+</div>
+
+<div class="post-comments-section">
+  <h3>Comments</h3>
+  <!-- Giscus comments — configure at https://giscus.app after enabling Discussions on your GitHub repo -->
+  <script src="https://giscus.app/client.js"
+    data-repo="indraacharja/indraacharja.github.io"
+    data-repo-id=""
+    data-category="Blog Comments"
+    data-category-id=""
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+
+<script>
+(function() {
+  // ── Like button ──
+  var pageKey = 'like_' + window.location.pathname;
+  var count = parseInt(localStorage.getItem(pageKey + '_count') || '0');
+  var liked = localStorage.getItem(pageKey + '_liked') === 'true';
+
+  function renderLike() {
+    var btn = document.getElementById('likeBtn');
+    var heart = document.getElementById('likeHeart');
+    var cntEl = document.getElementById('likeCount');
+    if (!btn) return;
+    cntEl.textContent = count;
+    if (liked) {
+      btn.classList.add('liked');
+      heart.textContent = '♥';
+    } else {
+      btn.classList.remove('liked');
+      heart.textContent = '♡';
+    }
+  }
+
+  window.toggleLike = function() {
+    if (liked) {
+      liked = false; count = Math.max(0, count - 1);
+    } else {
+      liked = true; count++;
+    }
+    localStorage.setItem(pageKey + '_liked', liked);
+    localStorage.setItem(pageKey + '_count', count);
+    renderLike();
+  };
+
+  renderLike();
+
+  // ── Share helpers ──
+  window.shareToFacebook = function() {
+    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=400');
+  };
+  window.shareToX = function() {
+    var title = document.title || '';
+    window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(title), '_blank', 'width=600,height=400');
+  };
+  window.shareToLinkedIn = function() {
+    window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=500');
+  };
+  window.copyLink = function() {
+    navigator.clipboard.writeText(window.location.href).then(function() {
+      var btn = document.getElementById('copyBtn');
+      btn.textContent = '✓';
+      btn.classList.add('copied');
+      setTimeout(function() {
+        btn.textContent = '🔗';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  };
+})();
+</script>
