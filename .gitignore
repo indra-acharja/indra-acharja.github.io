@@ -1,3 +1,16 @@
+# Quarto cache & freeze — regenerated on every render
 /.quarto/
 **/*.quarto_ipynb
+
+# RStudio local files
 .Rproj.user
+.Rhistory
+.RData
+*.Rproj
+
+# Claude Code local settings
+/.claude/
+
+# Source photos — Quarto copies these into docs/photos/ at render time
+# Keep locally; docs/photos/ (the served copies) stay tracked
+/photos/
