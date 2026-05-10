@@ -1,8 +1,8 @@
 ---
-title: "A heron on the edge: what ten years of nest watching tells us about one of the world's rarest birds"
-description: "Our new study tracking White-bellied Heron nests in Bhutan over a decade reveals something troubling — and urgent."
 author: "Indra P. Acharja"
 date: "2026-05-09"
+title: "A heron on the edge: what ten years of nest watching tells us about one of the world's rarest birds"
+description: "Our new study tracking White-bellied Heron nests in Bhutan over a decade reveals something troubling — and urgent."
 categories: [Research, White-bellied Heron, Bhutan, Breeding Biology]
 image: ""
 ---

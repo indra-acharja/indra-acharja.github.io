@@ -30,13 +30,28 @@ body {
   border-bottom: 6px solid #f9f7f3 !important;
   padding: 0.4rem 1.5rem !important;
 }
-/* Prevent sticky navbar from covering page titles */
+/* ── Scroll padding for anchor links ── */
 html {
   scroll-padding-top: 80px;
 }
+
+/* ── Title block: invisible spacer on listing pages; hidden on posts via JS ── */
 #title-block-header {
-  padding-top: 2rem !important;
-  margin-top: 1rem !important;
+  visibility: hidden !important;
+  height: 36px !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ── Blog listing: compact spacing ── */
+#quarto-content .quarto-listing {
+  margin-top: 0.5rem !important;
+}
+.quarto-post {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 0 !important;
 }
 .navbar-brand {
   font-family: 'Outfit', sans-serif !important;

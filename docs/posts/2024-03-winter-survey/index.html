@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-616ac8b6c78db37ae82ab40388e0241c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3a92fca5702a68623d46126ed085e42b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -208,6 +208,48 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <style>
+/* ── Custom post header injected by JS ── */
+.custom-post-header {
+  padding-top: 5rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e0dcd6;
+}
+.custom-post-header h1 {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1a3a2a;
+  line-height: 1.25;
+  margin: 0 0 0.5rem 0;
+}
+.custom-post-header p.post-desc {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  color: #6b6458;
+  font-style: italic;
+  margin: 0;
+}
+/* ── Author/date at bottom ── */
+.post-meta-bottom {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.82rem;
+  color: #7a7060;
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.post-meta-bottom span strong {
+  font-weight: 600;
+  color: #4a4038;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.7rem;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+/* ── Share bar ── */
 .post-social-bar {
   margin-top: 3rem;
   padding-top: 1.5rem;
@@ -279,18 +321,15 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
+<div class="post-meta-bottom" id="post-meta-bottom"></div>
+
 <div class="post-social-bar">
   <div class="post-share-row">
     <span class="share-label">Share</span>
-    <!-- Facebook -->
     <button class="share-btn" onclick="shareToFacebook()" title="Share on Facebook">f</button>
-    <!-- X / Twitter -->
     <button class="share-btn" onclick="shareToX()" title="Share on X" style="font-family:serif;">𝕏</button>
-    <!-- LinkedIn -->
     <button class="share-btn" onclick="shareToLinkedIn()" title="Share on LinkedIn" style="font-size:0.78rem;">in</button>
-    <!-- Copy link -->
     <button class="share-btn" id="copyBtn" onclick="copyLink()" title="Copy link">🔗</button>
-    <!-- Like -->
     <button class="like-btn" id="likeBtn" onclick="toggleLike()">
       <span class="heart" id="likeHeart">♡</span>
       <span id="likeCount">0</span>
@@ -300,13 +339,59 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="post-comments-section">
   <h3>Comments</h3>
-  <!-- Giscus comments — configure at https://giscus.app after enabling Discussions on your GitHub repo -->
   <script src="https://giscus.app/client.js" data-repo="indra-acharja/indra-acharja.github.io" data-repo-id="R_kgDOSY2FUg" data-category="Announcements" data-category-id="DIC_kwDOSY2FUs4C8qpV" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" data-loading="lazy" crossorigin="anonymous" async="">
   </script>
 </div>
 
 <script>
 (function() {
+  // ── Build custom post header from Quarto's hidden title block ──
+  var titleBlock = document.querySelector('#title-block-header');
+  var mainEl = document.querySelector('main.content') ||
+               document.querySelector('#quarto-document-content') ||
+               document.querySelector('main');
+
+  if (titleBlock && mainEl) {
+    var titleEl   = titleBlock.querySelector('h1.title');
+    var descEl    = titleBlock.querySelector('.description');
+    var metaEl    = titleBlock.querySelector('.quarto-title-meta');
+
+    // Build custom header
+    var header = document.createElement('div');
+    header.className = 'custom-post-header';
+
+    if (titleEl) {
+      var h1 = document.createElement('h1');
+      h1.textContent = titleEl.textContent;
+      header.appendChild(h1);
+    }
+    if (descEl) {
+      var p = document.createElement('p');
+      p.className = 'post-desc';
+      p.textContent = descEl.textContent;
+      header.appendChild(p);
+    }
+
+    // Insert custom header as first child of main
+    mainEl.insertBefore(header, mainEl.firstChild);
+
+    // Move author/date to bottom
+    var bottomEl = document.getElementById('post-meta-bottom');
+    if (metaEl && bottomEl) {
+      var headings = metaEl.querySelectorAll('.quarto-title-meta-heading');
+      var contents = metaEl.querySelectorAll('.quarto-title-meta-contents');
+      headings.forEach(function(h, i) {
+        var span = document.createElement('span');
+        span.innerHTML = '<strong>' + h.textContent.trim() + '</strong>' +
+                         (contents[i] ? contents[i].textContent.trim() : '');
+        bottomEl.appendChild(span);
+      });
+    }
+
+    // Hide original title block
+    titleBlock.style.cssText = 'display:none!important';
+  }
+
   // ── Like button ──
   var pageKey = 'like_' + window.location.pathname;
   var count = parseInt(localStorage.getItem(pageKey + '_count') || '0');
@@ -318,26 +403,17 @@ ul.task-list li input[type="checkbox"] {
     var cntEl = document.getElementById('likeCount');
     if (!btn) return;
     cntEl.textContent = count;
-    if (liked) {
-      btn.classList.add('liked');
-      heart.textContent = '♥';
-    } else {
-      btn.classList.remove('liked');
-      heart.textContent = '♡';
-    }
+    if (liked) { btn.classList.add('liked'); heart.textContent = '♥'; }
+    else        { btn.classList.remove('liked'); heart.textContent = '♡'; }
   }
 
   window.toggleLike = function() {
-    if (liked) {
-      liked = false; count = Math.max(0, count - 1);
-    } else {
-      liked = true; count++;
-    }
+    if (liked) { liked = false; count = Math.max(0, count - 1); }
+    else        { liked = true; count++; }
     localStorage.setItem(pageKey + '_liked', liked);
     localStorage.setItem(pageKey + '_count', count);
     renderLike();
   };
-
   renderLike();
 
   // ── Share helpers ──
@@ -345,8 +421,7 @@ ul.task-list li input[type="checkbox"] {
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=400');
   };
   window.shareToX = function() {
-    var title = document.title || '';
-    window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(title), '_blank', 'width=600,height=400');
+    window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title), '_blank', 'width=600,height=400');
   };
   window.shareToLinkedIn = function() {
     window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href), '_blank', 'width=600,height=500');
@@ -354,12 +429,8 @@ ul.task-list li input[type="checkbox"] {
   window.copyLink = function() {
     navigator.clipboard.writeText(window.location.href).then(function() {
       var btn = document.getElementById('copyBtn');
-      btn.textContent = '✓';
-      btn.classList.add('copied');
-      setTimeout(function() {
-        btn.textContent = '🔗';
-        btn.classList.remove('copied');
-      }, 2000);
+      btn.textContent = '✓'; btn.classList.add('copied');
+      setTimeout(function() { btn.textContent = '🔗'; btn.classList.remove('copied'); }, 2000);
     });
   };
 })();

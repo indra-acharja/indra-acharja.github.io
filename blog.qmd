@@ -16,11 +16,8 @@ title-block-banner: false
 ```{=html}
 <div class="section-header">
   <h1>Blog</h1>
-  <p>Field notes, conservation reflections, and science communication.</p>
+  <p>Field notes, publication alerts, conservation reflections, and science communication.</p>
 </div>
-
-<p style="font-style:italic; color:#6b6458; font-size:0.96rem; margin-bottom:1.5rem;">
-  Occasional writing on fieldwork in Bhutan, conservation challenges, and the science 
-  behind saving the White-bellied Heron. Written for a broad audience.
-</p>
 ```
+
+
