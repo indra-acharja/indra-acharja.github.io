@@ -4,7 +4,9 @@
       "WebFetch(domain:doi.org)",
       "WebFetch(domain:indraacharja.wixsite.com)",
       "Bash(git -C \"C:\\\\Research\\\\Github_projects\\\\personal_website\" remote get-url origin)",
-      "WebFetch(domain:academic.oup.com)"
+      "WebFetch(domain:academic.oup.com)",
+      "WebFetch(domain:www.ace-eco.org)",
+      "WebFetch(domain:scholar.google.com)"
     ]
   }
 }

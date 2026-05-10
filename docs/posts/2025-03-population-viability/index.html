@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Indra P. Acharja">
-<meta name="dcterms.date" content="2023-10-05">
-<meta name="description" content="Camera traps deployed along remote Himalayan rivers generate thousands of images. Finding a handful of White-bellied Heron detections in that data used to take weeks. AI-based detection is changing that.">
+<meta name="dcterms.date" content="2025-03-15">
+<meta name="description" content="Using integrated population modelling and Bayesian viability analysis, our new study identifies which conservation actions give the White-bellied Heron its best chance of survival.">
 
-<title>Using AI to find the world’s rarest heron in thousands of camera trap images – Indra P. Acharja</title>
+<title>How do you save a bird with fewer than 60 individuals? We built a model to find out – Indra P. Acharja</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -141,17 +141,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Using AI to find the world’s rarest heron in thousands of camera trap images</h1>
+<h1 class="title">How do you save a bird with fewer than 60 individuals? We built a model to find out</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Technology</div>
-    <div class="quarto-category">AI</div>
-    <div class="quarto-category">Monitoring</div>
+    <div class="quarto-category">Research</div>
+    <div class="quarto-category">White-bellied Heron</div>
+    <div class="quarto-category">Population Modelling</div>
+    <div class="quarto-category">Conservation</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Camera traps deployed along remote Himalayan rivers generate thousands of images. Finding a handful of White-bellied Heron detections in that data used to take weeks. AI-based detection is changing that.
+    Using integrated population modelling and Bayesian viability analysis, our new study identifies which conservation actions give the White-bellied Heron its best chance of survival.
   </div>
 </div>
 
@@ -168,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 5, 2023</p>
+      <p class="date">March 15, 2025</p>
     </div>
   </div>
   
@@ -180,25 +181,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A single camera trap deployed along a Himalayan riverbank for one month will generate somewhere between 500 and 5,000 images, depending on how much wildlife passes by and how sensitive the trigger is set. Most of those images will be of nothing useful: wind-blown vegetation, passing cattle, the occasional goat. A small fraction will show the birds and mammals you deployed the camera for.</p>
-<p>Finding those images — and within them, identifying the White-bellied Heron — used to be entirely manual work. A researcher would sit at a laptop and click through image after image, tagging and categorising. For a survey covering multiple sites across two river basins, this could mean weeks of processing time before any analysis could begin.</p>
-<p>AI-based image classification is changing this, and we have been working to apply it to White-bellied Heron monitoring as part of my doctoral research at Texas State University.</p>
-<section id="the-challenge-with-rare-species" class="level2">
-<h2 class="anchored" data-anchor-id="the-challenge-with-rare-species">The challenge with rare species</h2>
-<p>Training a machine learning model to recognise a bird requires images — many images — of that bird in a variety of poses, lighting conditions, and backgrounds. For common species, this is not a problem: there are hundreds of thousands of labelled bird photographs available in public datasets.</p>
-<p>For the White-bellied Heron, there are perhaps a few hundred good photographs in existence globally. This is not a lot of training data. The species is large, distinctive, and unmistakable to a human observer, but training a reliable classifier on sparse data requires careful methodological choices: transfer learning from models trained on related species, data augmentation to artificially expand the training set, and careful validation to ensure the model generalises to new field conditions.</p>
+<p>Imagine you are responsible for the survival of a species. There are fewer than 60 of them left in the wild. They live across three countries, in river valleys being rapidly transformed by dams, agriculture, and human settlement. You have limited funding, a small team, and the knowledge that every decision you make — or fail to make — will reverberate across what remains of a wild population.</p>
+<p>Where do you start?</p>
+<p>This is not a hypothetical. It is the reality facing conservationists working to protect the White-bellied Heron, one of the most critically endangered birds on Earth. And it is the question that drove our recent study, published in <em>Avian Conservation and Ecology</em>.</p>
+<section id="the-problem-with-guesswork" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-with-guesswork">The problem with guesswork</h2>
+<p>Conservation decisions are often made with incomplete information. Which intervention matters most? Is it better to protect nesting sites, improve survival of adults, or invest in a captive breeding programme as a safety net? Without a clear way to test these alternatives, the temptation is to do everything — which is rarely possible with limited resources — or to rely on intuition.</p>
+<p>We wanted something more rigorous. We wanted to be able to say: <em>given what we know about this population, this is what the numbers look like under different scenarios</em>.</p>
 </section>
-<section id="what-we-have-built-so-far" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-have-built-so-far">What we have built so far</h2>
-<p>Working with colleagues at Texas State, we have developed a pipeline that takes raw camera trap images, runs them through a classifier to flag images likely to contain large waterbirds, and then presents those flagged images to a human reviewer for confirmation. The system doesn’t replace human judgment — it assists it.</p>
-<p>In practice, this means that instead of reviewing 4,000 images manually, a researcher reviews perhaps 200 flagged images. The risk of false negatives (missing a real heron detection) is managed by keeping the classifier’s threshold conservative — it is better to flag 200 images than to miss a genuine sighting.</p>
-<p>Early tests in the Punatsangchhu suggest the pipeline reduces processing time by around 80%, with detection rates comparable to careful manual review.</p>
+<section id="building-a-model-for-an-extraordinary-bird" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-model-for-an-extraordinary-bird">Building a model for an extraordinary bird</h2>
+<p>To do that, we built what ecologists call an <strong>integrated population model (IPM)</strong> — a statistical framework that pulls together multiple streams of data simultaneously. In our case, that meant combining annual population counts, breeding success data from nest monitoring, and estimates of adult and juvenile survival, all collected over more than a decade of fieldwork in Bhutan.</p>
+<p>By combining these data streams rather than analysing them separately, the model gives more precise and internally consistent estimates of what is actually driving population change.</p>
+<p>We then extended this into a <strong>Bayesian population viability analysis (BPVA)</strong> — essentially a way of running thousands of simulated futures for the population and seeing how likely different outcomes are under different conditions. Bayesian methods are particularly well-suited to this kind of work because they properly account for uncertainty: we do not pretend to know things more precisely than we actually do.</p>
 </section>
-<section id="the-bigger-picture" class="level2">
-<h2 class="anchored" data-anchor-id="the-bigger-picture">The bigger picture</h2>
-<p>The value of this work extends beyond any single survey. One of the persistent challenges for White-bellied Heron conservation is the cost and logistical difficulty of monitoring a wide-ranging species across remote terrain in multiple countries. Bhutan, India, and Myanmar all have territory within the heron’s range; coordinating consistent survey effort across all of them is difficult.</p>
-<p>Scalable, low-cost monitoring technology — camera traps, acoustic sensors, satellite imagery — could make it possible for range-country partners to contribute systematically to population monitoring without the need for large, expensive field teams. AI-assisted processing makes the data from those tools actually manageable.</p>
-<p>We are still in early stages. But the potential to build a network of low-cost sensors across the White-bellied Heron’s range, feeding into a shared database that tracks population trends across countries, is real. That kind of data would transform our ability to assess the species’ status and respond to threats as they emerge.</p>
+<section id="what-the-model-found" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-model-found">What the model found</h2>
+<p>The results are confronting. Without any change in current conditions, our simulations suggest the wild White-bellied Heron population in Bhutan faces a high probability of continued decline. The model is not predicting imminent extinction — the birds are still there, still breeding — but the trajectory is in the wrong direction, and the margin for error is narrow.</p>
+<p>The analysis also let us ask: what if things changed? We modelled a range of conservation scenarios — increasing nest survival through active protection, reducing adult mortality, managing disturbance at key sites — and examined how each one affected the population’s prospects over the coming decades.</p>
+<p>The findings pointed clearly toward the value of <strong>improving juvenile and adult survival</strong>. Interventions that keep more birds alive between breeding seasons — reducing mortality from disturbance, collision, and other human pressures — have a proportionally larger effect than improvements to breeding success alone. This matters because it tells us where to focus.</p>
+<p>The model also reinforced the importance of the <strong>ex-situ (captive) population</strong> maintained by the Royal Society for Protection of Nature in Bhutan. In a population this small, chance events — a flood, a disease, a single bad breeding season — can have outsized consequences. The captive population acts as an insurance policy: a reservoir of individuals that can, if needed, contribute to the wild population’s recovery.</p>
+</section>
+<section id="why-models-matter-in-conservation" class="level2">
+<h2 class="anchored" data-anchor-id="why-models-matter-in-conservation">Why models matter in conservation</h2>
+<p>There is sometimes scepticism about mathematical models in conservation. Real species are complicated. Real habitats are messy. Can equations really capture what matters?</p>
+<p>In our experience, the value of models is not that they give you a perfect prediction of the future. They do not. The value is that they force you to be explicit about what you know, what you do not know, and what assumptions you are making. They help you see which uncertainties matter most — and therefore where more data would change decisions. And they give you a common language for discussing alternatives with managers, policymakers, and funders.</p>
+<p>For a species as rare as the White-bellied Heron, a model that synthesises a decade of painstaking field data into actionable guidance is worth every line of code.</p>
+</section>
+<section id="what-comes-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-comes-next">What comes next</h2>
+<p>This study establishes a baseline. We now have a quantitative picture of where the Bhutan population stands and what is most likely to help it. The next steps involve refining those estimates as more field data accumulates, extending the model to include populations in India and Myanmar, and working with partners on the ground to translate the findings into specific management actions.</p>
+<p>The White-bellied Heron does not have the luxury of waiting for perfect information. But armed with the best available evidence — and a model that honestly represents what we know — we are in a better position to act.</p>
+<hr>
+<p><em>The full study — “Investigation of effective conservation measures for the critically endangered White-bellied Heron</em> Ardea insignis <em>using an integrated population model and Bayesian population viability analysis” — is published in</em> Avian Conservation and Ecology, 20(1):19 <em>(2025) and is freely available at <a href="https://doi.org/10.5751/ACE-02833-200119">doi.org/10.5751/ACE-02833-200119</a>.</em></p>
+<p><em>Authors: Indra P. Acharja, Yuji Okahisa, M. Clay Green, Thinley Lhendup, Sonam Tshering, Thinley Phuntsho, Tshering Tobgay, Lungten Lungten, Jigme Tshering, Sangay Leki.</em></p>
 
 
 </section>
