@@ -18,8 +18,8 @@ pagetitle: "Indra P. Acharja | Conservation Biologist"
   <div>
     <h1 class="home-name">Indra P. Acharja</h1>
     <div class="home-title">
-      Doctoral Candidate | Texas State University, San Marcos, TX<br>
-      Research Assistant, Clay Green's Lab | Department of Biology
+      Doctoral Candidate | Research Assistant | Clay Green's Lab <br>
+      Department of Biology | Texas State University | San Marcos TX
     </div>
 
     <p>
