@@ -1,6 +1,10 @@
 ---
 title: "Home"
 pagetitle: "Indra P. Acharja | Conservation Biologist"
+format:
+  html:
+    include-in-header:
+      text: '<meta name="google-site-verification" content="07311kEyyZTAA6cHaBfMJhzvVeqLdsT2s0ZLIsirpCg" />'
 ---
 
 ```{=html}
