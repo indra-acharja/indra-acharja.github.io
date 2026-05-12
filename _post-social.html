@@ -66,8 +66,11 @@
   transition: all 0.18s ease;
   font-family: 'Outfit', sans-serif;
 }
-.share-btn:hover { border-color: #2a6b7c; color: #2a6b7c; background: #edf5f7; }
+.share-btn:hover  { border-color: #2a6b7c; color: #2a6b7c; background: #edf5f7; }
 .share-btn.copied { border-color: #3a7c3a; color: #3a7c3a; background: #edf5ed; }
+/* Platform-specific overrides */
+.share-btn--x  { font-family: serif; }
+.share-btn--li { font-size: 0.78rem; }
 .like-btn {
   display: inline-flex;
   align-items: center;
@@ -106,8 +109,8 @@
   <div class="post-share-row">
     <span class="share-label">Share</span>
     <button class="share-btn" onclick="shareToFacebook()" title="Share on Facebook">f</button>
-    <button class="share-btn" onclick="shareToX()" title="Share on X" style="font-family:serif;">𝕏</button>
-    <button class="share-btn" onclick="shareToLinkedIn()" title="Share on LinkedIn" style="font-size:0.78rem;">in</button>
+    <button class="share-btn share-btn--x"  onclick="shareToX()"       title="Share on X">𝕏</button>
+    <button class="share-btn share-btn--li" onclick="shareToLinkedIn()" title="Share on LinkedIn">in</button>
     <button class="share-btn" id="copyBtn" onclick="copyLink()" title="Copy link">🔗</button>
     <button class="like-btn" id="likeBtn" onclick="toggleLike()">
       <span class="heart" id="likeHeart">♡</span>

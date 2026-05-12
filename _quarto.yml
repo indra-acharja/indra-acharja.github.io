@@ -3,9 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Indra P. Acharja"
+  title: "Indra Acharja"
   description: "Conservation biologist and doctoral researcher at Texas State University, working to save the critically endangered White-bellied Heron from extinction."
-  favicon: ""
 
   navbar:
     background: light
@@ -27,17 +26,17 @@ website:
 
   page-footer:
     background: light
-    left: "© 2025 Indra P. Acharja · Texas State University, San Marcos, TX"
+    left: "© 2026 Indra Acharja · Texas State University, San Marcos, TX"
     right:
       - text: "indra.acharja@txstate.edu"
         href: "mailto:indra.acharja@txstate.edu"
 
   open-graph:
-    title: "Indra P. Acharja | Conservation Biologist"
+    title: "Indra Acharja | Conservation Biologist"
     description: "Doctoral researcher at Texas State University studying the world's rarest heron."
 
   twitter-card:
-    title: "Indra P. Acharja | Conservation Biologist"
+    title: "Indra Acharja | Conservation Biologist"
     description: "Doctoral researcher at Texas State University studying the world's rarest heron."
 
 format:

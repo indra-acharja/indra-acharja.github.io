@@ -1,6 +1,6 @@
 ---
 title: "Research"
-pagetitle: "Research | Indra Prasad Acharja"
+pagetitle: "Research | Indra Acharja"
 ---
 
 ```{=html}
@@ -10,58 +10,71 @@ pagetitle: "Research | Indra Prasad Acharja"
 </div>
 
 <p style="font-size:1.02rem; line-height:1.85; margin-bottom:0.5rem;">
-  My research interest sits at the intersection of avian ecology, freshwater biology, 
-  global change science, and applied conservation. I combine long-term field monitoring, 
- GIS, technology-assisted detection, population modelling, and conservation breeding 
-  to generate science that is both rigorous and directly actionable for 
-  species recovery. My work is currently centred on the critically endangered 
-  White-bellied Heron (<em>Ardea insignis</em>) — the world's rarest heron — across 
-  its range in the eastern Himalayas, with a framework designed to scale across 
+  My research interest sits at the intersection of avian ecology, freshwater biology,
+  global change science, and applied conservation. I combine long-term field monitoring,
+  GIS, technology-assisted detection, population modelling, and conservation breeding
+  to generate science that is both rigorous and directly actionable for
+  species recovery. My work is currently centred on the critically endangered
+  White-bellied Heron (<em>Ardea insignis</em>) — the world's rarest heron — across
+  its range in the eastern Himalayas, with a framework designed to scale across
   threatened waterbird systems globally.
 </p>
 
 <p style="font-size:0.92rem; color:#6b6458; font-style:italic; margin-bottom:2.5rem;">
-  Current research on the White-bellied Heron is focused on following areas:
+  Current research on the White-bellied Heron is focused on the following areas:
 </p>
 
 
-<!-- ═══════════════════════ THEME 01 ═══════════════════════ -->
+<!-- ── Theme 01 ── -->
 <div class="theme-card">
   <div class="theme-top">
     <span class="theme-num">01</span>
-    <h2>Reproductive Ecology and Population Dynamics </h2>
+    <h2>Reproductive Ecology and Population Dynamics</h2>
   </div>
 
   <p>
-    Understanding the demographic mechanisms driving population decline is the foundation of any science-based recovery effort. This research addresses how threatened waterbirds such as the White-bellied Heron reproduce, survive, and respond to environmental and management interventions — generating the quantitative evidence base needed to evaluate extinction risk and guide conservation decisions.
+    Understanding the demographic mechanisms driving population decline is the foundation
+    of any science-based recovery effort. This research addresses how threatened waterbirds
+    such as the White-bellied Heron reproduce, survive, and respond to environmental and
+    management interventions — generating the quantitative evidence base needed to evaluate
+    extinction risk and guide conservation decisions.
   </p>
   <p>
-    With fewer than 60 individuals remaining, it represents one of the most data-deficient critically endangered waterbirds in the world. My research investigates breeding biology, nest habitat selection, chick provisioning and growth, reproductive success, adult survival, and long-term population trends. Central to this work is the deployment of long-range remote cameras at active nest sites to continuously record breeding behaviour — including incubation rhythms, parental attendance, nest disturbance events, and chick development — without disturbing the birds. This non-invasive approach has yielded the first detailed behavioural data ever recorded for this species. Combined with multi-year population survey data, I use integrated population models to estimate vital rates, assess extinction probability, and evaluate the demographic impact of alternative conservation scenarios.
+    With fewer than 60 individuals remaining, it represents one of the most data-deficient
+    critically endangered waterbirds in the world. My research investigates breeding biology,
+    nest habitat selection, chick provisioning and growth, reproductive success, adult survival,
+    and long-term population trends. Central to this work is the deployment of long-range remote
+    cameras at active nest sites to continuously record breeding behaviour — including incubation
+    rhythms, parental attendance, nest disturbance events, and chick development — without
+    disturbing the birds. This non-invasive approach has yielded the first detailed behavioural
+    data ever recorded for this species. Combined with multi-year population survey data, I use
+    integrated population models to estimate vital rates, assess extinction probability, and
+    evaluate the demographic impact of alternative conservation scenarios.
   </p>
   <p>
-    Although this research is currently centred on the White-bellied Heron, the majority of large waterbirds across tropical and subtropical river systems are undergoing similar demographic declines. This work therefore contributes broadly to the population ecology of long-lived, low-fecundity birds facing accelerating habitat loss — a research agenda with implications well beyond any single species.
+    Although this research is currently centred on the White-bellied Heron, the majority of large
+    waterbirds across tropical and subtropical river systems are undergoing similar demographic
+    declines. This work therefore contributes broadly to the population ecology of long-lived,
+    low-fecundity birds facing accelerating habitat loss — a research agenda with implications
+    well beyond any single species.
   </p>
 
-  <div style="margin:1.1rem 0 0.4rem;">
-    <span style="font-family:'Outfit',sans-serif;font-size:0.7rem;font-weight:600;
-    letter-spacing:0.08em;text-transform:uppercase;color:#6b6458;">
-    Related publications</span>
-  </div>
-  <ul style="font-size:0.9rem;color:#3e3a34;line-height:1.8;
-  padding-left:1.2rem;margin-bottom:1rem;">
-    <li>Acharja et al. (2025). Investigation of effective conservation measures for the 
-    critically endangered White-bellied Heron using an integrated population model and 
+  <div class="theme-pubs-label">Related publications</div>
+  <ul>
+    <li>Acharja et al. (2026). Increasing variability and declining breeding success: A major
+    challenge in the conservation of the critically endangered <em>Ardea insignis</em>.
+    <em>Ornithology</em>, ukag017.</li>
+    <li>Acharja et al. (2025). Investigation of effective conservation measures for the
+    critically endangered White-bellied Heron using an integrated population model and
     Bayesian PVA. <em>Avian Conservation and Ecology</em>, 20(1):19.</li>
-    <li>Acharja et al. (2025). Increasing Variability and Declining Breeding Success in 
-    <em>Ardea insignis</em>. <em>Ornithology</em> (under review).</li>
-    <li>Acharja, I. P. (2019). Evaluation of nest habitat, site preferences, and 
-    architecture of the White-bellied Heron in Bhutan. 
+    <li>Acharja, I. (2019). Evaluation of nest habitat, site preferences, and
+    architecture of the White-bellied Heron in Bhutan.
     <em>Bird Conservation International</em>, 30(4):599–617.</li>
-    <li>Acharja, I. P. (2019). Current population, distribution, and conservation 
+    <li>Acharja, I. (2019). Current population, distribution, and conservation
     status of the White-bellied Heron in Bhutan. <em>Tropical Resources</em>, 38:1–10.</li>
-    <li>Khandu et al. (2020). First record of successful breeding of the White-bellied 
+    <li>Khandu et al. (2020). First record of successful breeding of the White-bellied
     Heron in broadleaved trees. <em>Journal of Animal and Plant Science</em>, 30(2).</li>
-    <li>Acharja et al. (2021). First observation of sexual conflict and parental 
+    <li>Acharja et al. (2021). First observation of sexual conflict and parental
     infanticide in the White-bellied Heron. <em>BirdingASIA</em>, 35:38–42.</li>
   </ul>
 
@@ -77,46 +90,42 @@ pagetitle: "Research | Indra Prasad Acharja"
 </div>
 
 
-<!-- ═══════════════════════ THEME 02 ═══════════════════════ -->
+<!-- ── Theme 02 ── -->
 <div class="theme-card">
   <div class="theme-top">
     <span class="theme-num">02</span>
-    <h2>Phenological Shifts and Reproductive Failures </h2>
+    <h2>Phenological Shifts and Reproductive Failures</h2>
   </div>
 
   <p>
-    Climate change is reorganising the timing of biological events across ecosystems — 
-    altering when species breed, when prey becomes available, and whether these critical 
-    windows remain synchronised. For long-lived waterbirds with narrow reproductive 
-    margins, even modest mismatches between breeding phenology and environmental 
-    conditions can translate into population-level reproductive failure. This research investigates how climate variability and long-term climate trends disrupt 
-    breeding phenology, generate ecological mismatch, and drive declining reproductive 
-    success in threatened waterbird populations.
+    Climate change is reorganising the timing of biological events across ecosystems —
+    altering when species breed, when prey becomes available, and whether these critical
+    windows remain synchronised. For long-lived waterbirds with narrow reproductive
+    margins, even modest mismatches between breeding phenology and environmental
+    conditions can translate into population-level reproductive failure. This research
+    investigates how climate variability and long-term climate trends disrupt breeding
+    phenology, generate ecological mismatch, and drive declining reproductive success
+    in threatened waterbird populations.
   </p>
   <p>
-    The White-bellied Heron as a sentinel species in Himalayan river 
-    systems — a climate-sensitive landscape where glacial melt, monsoon variability, 
-    and shifting temperature regimes are altering river hydrology and prey dynamics. 
-    Analysis of long-term nest monitoring data reveals increasing variability in 
-    breeding initiation dates and a measurable decline in reproductive success, 
-    consistent with climate-driven phenological disruption. Ongoing work integrates 
-    satellite-derived environmental data — river flow regimes, 
-    land surface temperature, and vegetation phenology — with nest-level reproductive 
-    outcome data to identify the environmental drivers of breeding success.
+    The White-bellied Heron serves as a sentinel species in Himalayan river systems —
+    a climate-sensitive landscape where glacial melt, monsoon variability, and shifting
+    temperature regimes are altering river hydrology and prey dynamics. Analysis of
+    long-term nest monitoring data reveals increasing variability in breeding initiation
+    dates and a measurable decline in reproductive success, consistent with
+    climate-driven phenological disruption. Ongoing work integrates satellite-derived
+    environmental data — river flow regimes, land surface temperature, and vegetation
+    phenology — with nest-level reproductive outcome data to identify the environmental
+    drivers of breeding success.
   </p>
 
-  <div style="margin:1.1rem 0 0.4rem;">
-    <span style="font-family:'Outfit',sans-serif;font-size:0.7rem;font-weight:600;
-    letter-spacing:0.08em;text-transform:uppercase;color:#6b6458;">
-    Related publications</span>
-  </div>
-  <ul style="font-size:0.9rem;color:#3e3a34;line-height:1.8;
-  padding-left:1.2rem;margin-bottom:1rem;">
-    <li>Acharja et al. (2025). Increasing Variability and Declining Breeding Success: 
-    A major challenge in the conservation of the Critically Endangered 
-    <em>Ardea insignis</em>. <em>Ornithology</em> (under review).</li>
-    <li>Acharja et al. (2025). Investigation of effective conservation measures using 
-    an integrated population model and Bayesian PVA. 
+  <div class="theme-pubs-label">Related publications</div>
+  <ul>
+    <li>Acharja et al. (2026). Increasing variability and declining breeding success:
+    A major challenge in the conservation of the critically endangered <em>Ardea insignis</em>.
+    <em>Ornithology</em>, ukag017.</li>
+    <li>Acharja et al. (2025). Investigation of effective conservation measures using
+    an integrated population model and Bayesian PVA.
     <em>Avian Conservation and Ecology</em>, 20(1):19.</li>
   </ul>
 
@@ -133,7 +142,7 @@ pagetitle: "Research | Indra Prasad Acharja"
 </div>
 
 
-<!-- ═══════════════════════ THEME 03 ═══════════════════════ -->
+<!-- ── Theme 03 ── -->
 <div class="theme-card">
   <div class="theme-top">
     <span class="theme-num">03</span>
@@ -141,35 +150,44 @@ pagetitle: "Research | Indra Prasad Acharja"
   </div>
 
   <p>
-    Freshwater ecosystems are among the most threatened on Earth, yet the cumulative impact of multiple simultaneous human pressures on freshwater-dependent species remains poorly quantified. This research develops frameworks for mapping, quantifying, and prioritising anthropogenic threats at the landscape scale — integrating freshwater biodiversity assessment, remote sensing, and multi-threat modelling to generate actionable conservation risk profiles for policy and management.
+    Freshwater ecosystems are among the most threatened on Earth, yet the cumulative impact
+    of multiple simultaneous human pressures on freshwater-dependent species remains poorly
+    quantified. This research develops frameworks for mapping, quantifying, and prioritising
+    anthropogenic threats at the landscape scale — integrating freshwater biodiversity
+    assessment, remote sensing, and multi-threat modelling to generate actionable conservation
+    risk profiles for policy and management.
   </p>
   <p>
-    Current work is grounded in the Himalayan river systems of Bhutan — particularly the Punatsangchhu and Mangdechhu basins — where the White-bellied Heron serves as an ecological indicator of freshwater ecosystem health. Key threats under investigation include hydropower development and flow alteration, illegal and unsustainable fishing, sedimentation from land-use change, riparian forest degradation, and direct anthropogenic disturbance at breeding and foraging sites.
+    Current work is grounded in the Himalayan river systems of Bhutan — particularly the
+    Punatsangchhu and Mangdechhu basins — where the White-bellied Heron serves as an ecological
+    indicator of freshwater ecosystem health. Key threats under investigation include hydropower
+    development and flow alteration, illegal and unsustainable fishing, sedimentation from
+    land-use change, riparian forest degradation, and direct anthropogenic disturbance at
+    breeding and foraging sites.
   </p>
   <p>
-    With ever-increasing pressure on freshwater ecosystems and waterbird habitats globally, this research is designed to scale into a transferable landscape-scale risk assessment framework applicable to freshwater-dependent threatened species across tropical and montane river systems — directly relevant to international freshwater biodiversity conservation priorities and IUCN Red List threat assessment standards.
+    With ever-increasing pressure on freshwater ecosystems and waterbird habitats globally,
+    this research is designed to scale into a transferable landscape-scale risk assessment
+    framework applicable to freshwater-dependent threatened species across tropical and
+    montane river systems — directly relevant to international freshwater biodiversity
+    conservation priorities and IUCN Red List threat assessment standards.
   </p>
 
-  <div style="margin:1.1rem 0 0.4rem;">
-    <span style="font-family:'Outfit',sans-serif;font-size:0.7rem;font-weight:600;
-    letter-spacing:0.08em;text-transform:uppercase;color:#6b6458;">
-    Related publications &amp; reports</span>
-  </div>
-  <ul style="font-size:0.9rem;color:#3e3a34;line-height:1.8;
-  padding-left:1.2rem;margin-bottom:1rem;">
-    <li>Maheswaran, Acharja et al. (2021). Save the white-bellied heron from extinction. 
+  <div class="theme-pubs-label">Related publications &amp; reports</div>
+  <ul>
+    <li>Maheswaran, Acharja et al. (2021). Save the white-bellied heron from extinction.
     <em>Science</em>, 373(6561):1317.</li>
-    <li>Lungten, Acharja et al. (2023). Diversity of benthic macroinvertebrates in 
-    White-bellied Heron landscape, Bhutan. 
+    <li>Lungten, Acharja et al. (2023). Diversity of benthic macroinvertebrates in
+    White-bellied Heron landscape, Bhutan.
     <em>Int. J. Fauna and Biological Studies</em>, 10(4):09–17.</li>
-    <li>Dorji, Acharja et al. (2021). Biomonitoring of health of Chubachu stream 
-    using macroinvertebrate diversity. 
+    <li>Dorji, Acharja et al. (2021). Biomonitoring of health of Chubachu stream
+    using macroinvertebrate diversity.
     <em>Bhutan Journal of Research and Development</em>, 10(2).</li>
-    <li>Tobgay, Acharja et al. (2022). White-bellied Heron Conservation Action Plan 
+    <li>Tobgay, Acharja et al. (2022). White-bellied Heron Conservation Action Plan
     2022–2031. RSPN &amp; DoFPS, Bhutan.</li>
-    <li>RSPN (2022). Ecosystem and Socio-economic Resilience Analysis and Mapping: 
+    <li>RSPN (2022). Ecosystem and Socio-economic Resilience Analysis and Mapping:
     White-bellied Heron habitats, Bhutan. BMUV, Germany.</li>
-    <li>RSPN (2022). Developing Ecosystem-based Solutions for Managing Biodiversity 
+    <li>RSPN (2022). Developing Ecosystem-based Solutions for Managing Biodiversity
     Landscapes in Bhutan.</li>
   </ul>
 
@@ -186,39 +204,43 @@ pagetitle: "Research | Indra Prasad Acharja"
 </div>
 
 
-<!-- ═══════════════════════ THEME 04 ═══════════════════════ -->
+<!-- ── Theme 04 ── -->
 <div class="theme-card">
   <div class="theme-top">
     <span class="theme-num">04</span>
-    <h2>Conservation Breeding, and Species Reintroduction</h2>
+    <h2>Conservation Breeding and Species Reintroduction</h2>
   </div>
 
   <p>
-    For species reduced to critically small wild populations, ex-situ conservation 
-    is no longer a last resort — it is an integral component of a science-based 
-    recovery strategy. This research addresses fundamental and applied 
-    questions in conservation breeding, genetic diversity management, and 
-    reintroduction biology, with the goal of developing replicable frameworks 
+    For species reduced to critically small wild populations, ex-situ conservation
+    is no longer a last resort — it is an integral component of a science-based
+    recovery strategy. This research addresses fundamental and applied
+    questions in conservation breeding, genetic diversity management, and
+    reintroduction biology, with the goal of developing replicable frameworks
     that bridge ex-situ programs and wild population restoration.
   </p>
   <p>
-    The White-bellied Heron Conservation Center in Bhutan — home to the world's first and only captive population of this species — serves as the living laboratory for this research. With no prior captive breeding history for this species anywhere in the world, this program is pioneering the development of husbandry protocols, reproductive management strategies, and genetic monitoring frameworks from the ground up. Alongside this, we are building the scientific foundation for a future reintroduction program: identifying and assessing candidate release sites, modelling habitat suitability under current and future conditions, developing soft-release and post-release monitoring protocols, and evaluating reintroduction success against demographic benchmarks.
+    The White-bellied Heron Conservation Center in Bhutan — home to the world's first
+    and only captive population of this species — serves as the living laboratory for
+    this research. With no prior captive breeding history for this species anywhere in
+    the world, this program is pioneering the development of husbandry protocols,
+    reproductive management strategies, and genetic monitoring frameworks from the
+    ground up. Alongside this, we are building the scientific foundation for a future
+    reintroduction program: identifying and assessing candidate release sites, modelling
+    habitat suitability under current and future conditions, developing soft-release and
+    post-release monitoring protocols, and evaluating reintroduction success against
+    demographic benchmarks.
   </p>
-  
-  <div style="margin:1.1rem 0 0.4rem;">
-    <span style="font-family:'Outfit',sans-serif;font-size:0.7rem;font-weight:600;
-    letter-spacing:0.08em;text-transform:uppercase;color:#6b6458;">
-    Related publications &amp; reports</span>
-  </div>
-  <ul style="font-size:0.9rem;color:#3e3a34;line-height:1.8;
-  padding-left:1.2rem;margin-bottom:1rem;">
-    <li>Acharja et al. (2021). White-bellied Heron Conservation Center Establishment 
+
+  <div class="theme-pubs-label">Related publications &amp; reports</div>
+  <ul>
+    <li>Acharja et al. (2021). White-bellied Heron Conservation Center Establishment
     and Management Plan. RSPN, Bhutan.</li>
-    <li>Acharja, I. P. (2021). The White-bellied Heron Conservation Center: The center 
+    <li>Acharja, I. (2021). The White-bellied Heron Conservation Center: The center
     for conservation breeding, research, and information. RSPN, Bhutan.</li>
-    <li>Acharja, I. P. (2021 &amp; 2020). White-bellied Heron Annual Population Survey. 
+    <li>Acharja, I. (2021 &amp; 2020). White-bellied Heron Annual Population Survey.
     RSPN, Bhutan.</li>
-    <li>Acharja, I. P. (2023). Conservation of White-bellied Herons. 
+    <li>Acharja, I. (2023). Conservation of White-bellied Herons.
     <em>Rewilding Success — Ecological Citizen.</em></li>
   </ul>
 
@@ -236,36 +258,57 @@ pagetitle: "Research | Indra Prasad Acharja"
 </div>
 
 
-<!-- ═══════════════════════ FIELD SITES ═══════════════════════ -->
-<div class="field-box" style="margin-top:2.5rem;">
-  <h3 style="margin-top:0!important;">Field Sites &amp; Study Systems</h3>
+<!-- ── Field Sites ── -->
+<div class="field-box" style="margin-top: 2.5rem;">
+  <h3 style="margin-top: 0 !important;">Field Sites &amp; Study Systems</h3>
   <p>
-    Primary field sites span the White-bellied Heron's range in Bhutan — particularly the Punatsangchhu and Mangdechhu river basins, which together support the majority of the global population. These north–south-oriented river corridors are characterised by swift currents, rugged terrain, and narrow floodplains that provide critical ecological resources: shallow foraging areas, sand and gravel bars, and intact riparian forest. At the same time, these valleys concentrate human settlement, agriculture, road infrastructure, and resource extraction precisely because they offer the most accessible terrain in an otherwise mountainous landscape. Wildlife habitat and human land use are therefore in direct and intensifying competition along the same linear corridors — exposed to disturbance from settlement expansion, quarrying, riverbed dredging, road development, and hydropower infrastructure. This spatial overlap between ecological value and anthropogenic pressure makes these systems a priority for research that can identify and evaluate practical, targeted conservation interventions.
+    Primary field sites span the White-bellied Heron's range in Bhutan — particularly the
+    Punatsangchhu and Mangdechhu river basins, which together support the majority of the
+    global population. These north–south-oriented river corridors are characterised by swift
+    currents, rugged terrain, and narrow floodplains that provide critical ecological
+    resources: shallow foraging areas, sand and gravel bars, and intact riparian forest. At
+    the same time, these valleys concentrate human settlement, agriculture, road
+    infrastructure, and resource extraction precisely because they offer the most accessible
+    terrain in an otherwise mountainous landscape. Wildlife habitat and human land use are
+    therefore in direct and intensifying competition along the same linear corridors —
+    exposed to disturbance from settlement expansion, quarrying, riverbed dredging, road
+    development, and hydropower infrastructure. This spatial overlap between ecological
+    value and anthropogenic pressure makes these systems a priority for research that can
+    identify and evaluate practical, targeted conservation interventions.
   </p>
 </div>
 
 
-<!-- ═══════════════════════ FUNDING ═══════════════════════ -->
-<h3>Grants &amp; Funded Projects <span style="font-family:'Crimson Pro',serif;font-size:0.95rem;font-weight:400;font-style:italic;letter-spacing:0;text-transform:none;">(including projects developed and implemented while at RSPN)</span></h3>
+<!-- ── Grants & Funded Projects ── -->
+<h3>Grants &amp; Funded Projects
+  <span style="font-family:'Crimson Pro',serif; font-size:0.95rem; font-weight:400;
+    font-style:italic; letter-spacing:0; text-transform:none;">
+    (including projects developed and implemented while at RSPN)
+  </span>
+</h3>
 
 <div class="funding-item">
   <strong>Doctoral Research Support Fellowship</strong>
-  — Texas State University. 2025.<span class="funding-amt">$5,000 </span>
-</div>
-<div class="funding-item">
-  <strong>Zoological Association of America Conservation Grant</strong>
-  — Zoological Association of America. 2024.<span class="funding-amt"> $5,000 </span>
+  — Texas State University. 2025.
+  <span class="funding-amt">$5,000</span>
 </div>
 
 <div class="funding-item">
-  <strong>Developing Ecosystem-based Solution for Managing Biodiversity Landscape 
-  in Bhutan</strong> — Federal Ministry of the Environment, Nature Conservation, 
-  Nuclear Safety and Consumer Protection, Germany (BMUV). 2021–2026.
+  <strong>Zoological Association of America Conservation Grant</strong>
+  — Zoological Association of America. 2024.
+  <span class="funding-amt">$5,000</span>
+</div>
+
+<div class="funding-item">
+  <strong>Developing Ecosystem-based Solution for Managing Biodiversity Landscape in Bhutan</strong>
+  — Federal Ministry of the Environment, Nature Conservation, Nuclear Safety and Consumer
+  Protection, Germany (BMUV). 2021–2026.
   <span class="funding-amt">$3.8 million</span>
 </div>
+
 <div class="funding-item">
   <strong>Establishment of White-bellied Heron Conservation Breeding Center</strong>
-  — MAVA Foundation, Hans Wilsdorf Foundation, Synchronicity Earth, Zlin Zoo, 
+  — MAVA Foundation, Hans Wilsdorf Foundation, Synchronicity Earth, Zlin Zoo,
   Keidanren Nature Conservation Fund. 2016–2022.
   <span class="funding-amt">~$3.1 million</span>
 </div>
@@ -275,34 +318,52 @@ pagetitle: "Research | Indra Prasad Acharja"
   — Bhutan Trust Fund for Environmental Conservation. 2019–2022.
   <span class="funding-amt">$150,000</span>
 </div>
+
 <div class="funding-item">
   <strong>White-bellied Heron Recovery Plan</strong>
   — Bhutan Trust Fund for Environmental Conservation. 2015–2018.
   <span class="funding-amt">$180,000</span>
 </div>
+
 <div class="funding-item">
   <strong>Ecosystem-based and Incentive-based Approaches to WBH Conservation</strong>
   — Rising Phoenix Philanthropic Group. 2019–2021.
   <span class="funding-amt">$50,000</span>
 </div>
+
 <div class="funding-item">
   <strong>Community Education and Awareness for WBH Conservation</strong>
   — Alice C. Tyler Perpetual Trust &amp; Global Wildlife Conservation. 2020–2021.
   <span class="funding-amt">$30,000</span>
 </div>
+
 <div class="funding-item">
-  <strong>Explorer Grant</strong> — National Geographic Society. 2018. <span class="funding-amt">$5,000 </span>
-  &nbsp;&nbsp;
-  <p>
-<strong>Andrew Sabin International Environmental Fellowship</strong>
-  — Yale School of Forestry &amp; Environmental Studies. 2018.<span class="funding-amt">$40,000 </span>
-  &nbsp;&nbsp;
-  <strong>Tropical Resources Institute Endowment Fellowship </strong> — Yale School of Forestry &amp; Environmental Studies. 2018. <span class="funding-amt">$5,000</span>
+  <strong>Explorer Grant</strong>
+  — National Geographic Society. 2018.
+  <span class="funding-amt">$5,000</span>
 </div>
+
 <div class="funding-item">
-  <strong>Rufford Small Grant</strong> — Rufford Foundation, UK. 2015. <span class="funding-amt">£5,000</span>
-  &nbsp;&nbsp;
-  <p>
-  <strong>OBC-Wildwings Award</strong> — UK. 2015. <span class="funding-amt">£2,000</span>
+  <strong>Andrew Sabin International Environmental Fellowship</strong>
+  — Yale School of Forestry &amp; Environmental Studies. 2018.
+  <span class="funding-amt">$40,000</span>
+</div>
+
+<div class="funding-item">
+  <strong>Tropical Resources Institute Endowment Fellowship</strong>
+  — Yale School of Forestry &amp; Environmental Studies. 2018.
+  <span class="funding-amt">$5,000</span>
+</div>
+
+<div class="funding-item">
+  <strong>Rufford Small Grant</strong>
+  — Rufford Foundation, UK. 2015.
+  <span class="funding-amt">£5,000</span>
+</div>
+
+<div class="funding-item">
+  <strong>OBC-Wildwings Award</strong>
+  — UK. 2015.
+  <span class="funding-amt">£2,000</span>
 </div>
 ```

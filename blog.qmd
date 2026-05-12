@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-pagetitle: "Blog | Indra P. Acharja"
+pagetitle: "Blog | Indra Acharja"
 listing:
   contents: posts
   sort: "date desc"
