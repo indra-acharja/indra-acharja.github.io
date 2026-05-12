@@ -404,8 +404,8 @@ ul.task-list li input[type="checkbox"] {
     // Move author/date to bottom as single "By Name · Date" line
     var bottomEl = document.getElementById('post-meta-bottom');
     if (metaEl && bottomEl) {
-      var authorEl = metaEl.querySelector('p.author');
       var dateEl   = metaEl.querySelector('p.date');
+      var authorEl = metaEl.querySelector('.quarto-title-meta-contents p:not(.date)');
       var authorName = authorEl ? authorEl.textContent.trim() : '';
       var dateStr    = dateEl   ? dateEl.textContent.trim()   : '';
       var parts = [];

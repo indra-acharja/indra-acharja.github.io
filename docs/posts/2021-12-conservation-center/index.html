@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="photo_center_aerial.jpg" class="img-fluid figure-img"></p>
-<figcaption><em>The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Indra Acharja/RSPN</em></figcaption>
+<figcaption><em>The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Tshewang Lhendup/RSPN</em></figcaption>
 </figure>
 </div>
 </div>
@@ -417,8 +417,8 @@ ul.task-list li input[type="checkbox"] {
     // Move author/date to bottom as single "By Name · Date" line
     var bottomEl = document.getElementById('post-meta-bottom');
     if (metaEl && bottomEl) {
-      var authorEl = metaEl.querySelector('p.author');
       var dateEl   = metaEl.querySelector('p.date');
+      var authorEl = metaEl.querySelector('.quarto-title-meta-contents p:not(.date)');
       var authorName = authorEl ? authorEl.textContent.trim() : '';
       var dateStr    = dateEl   ? dateEl.textContent.trim()   : '';
       var parts = [];
