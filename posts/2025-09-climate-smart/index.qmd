@@ -1,7 +1,7 @@
 ---
 title: "How smart are our climate-smart projects?"
 description: "The term 'climate-smart' has become a marketing label. Here is what it actually takes for a project to earn that name — and why Bhutan should care."
-author: "Indra P. Acharja"
+author: "Indra Acharja"
 date: "2025-09-21"
 categories: [Conservation, Climate, Bhutan, Policy]
 image: ""
@@ -59,4 +59,4 @@ The term deserves to be taken seriously. That means using it only when the evide
 
 ---
 
-*Indra P. Acharja is a doctoral researcher at Texas State University and a conservation biologist specializing in the White-bellied Heron and Himalayan freshwater ecosystems.*
+*Indra Acharja is a doctoral researcher at Texas State University and a conservation biologist specializing in the White-bellied Heron and Himalayan freshwater ecosystems.*

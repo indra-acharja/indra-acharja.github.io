@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Indra P. Acharja">
+<meta name="author" content="Indra Acharja">
 <meta name="dcterms.date" content="2021-12-01">
 <meta name="description" content="In 2021, RSPN established the world’s first dedicated conservation breeding facility for the White-bellied Heron — collecting wild chicks, hand-raising them, and building the foundation for a species’ future.">
 
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Indra P. Acharja </p>
+             <p>Indra Acharja </p>
           </div>
   </div>
     
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="photo_center_aerial.jpg" class="img-fluid figure-img"></p>
-<figcaption><em>The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Indra P. Acharja/RSPN</em></figcaption>
+<figcaption><em>The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Indra Acharja/RSPN</em></figcaption>
 </figure>
 </div>
 </div>
@@ -284,21 +284,9 @@ ul.task-list li input[type="checkbox"] {
 /* ── Author/date at bottom ── */
 .post-meta-bottom {
   font-family: 'Outfit', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: #7a7060;
   margin-bottom: 1.2rem;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.post-meta-bottom span strong {
-  font-weight: 600;
-  color: #4a4038;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-size: 0.7rem;
-  display: block;
-  margin-bottom: 0.2rem;
 }
 /* ── Share bar ── */
 .post-social-bar {
@@ -426,17 +414,17 @@ ul.task-list li input[type="checkbox"] {
     // Insert custom header as first child of main
     mainEl.insertBefore(header, mainEl.firstChild);
 
-    // Move author/date to bottom
+    // Move author/date to bottom as single "By Name · Date" line
     var bottomEl = document.getElementById('post-meta-bottom');
     if (metaEl && bottomEl) {
-      var headings = metaEl.querySelectorAll('.quarto-title-meta-heading');
-      var contents = metaEl.querySelectorAll('.quarto-title-meta-contents');
-      headings.forEach(function(h, i) {
-        var span = document.createElement('span');
-        span.innerHTML = '<strong>' + h.textContent.trim() + '</strong>' +
-                         (contents[i] ? contents[i].textContent.trim() : '');
-        bottomEl.appendChild(span);
-      });
+      var authorEl = metaEl.querySelector('p.author');
+      var dateEl   = metaEl.querySelector('p.date');
+      var authorName = authorEl ? authorEl.textContent.trim() : '';
+      var dateStr    = dateEl   ? dateEl.textContent.trim()   : '';
+      var parts = [];
+      if (authorName) parts.push('By ' + authorName);
+      if (dateStr)    parts.push(dateStr);
+      bottomEl.textContent = parts.join(' · ');
     }
 
     // Hide original title block

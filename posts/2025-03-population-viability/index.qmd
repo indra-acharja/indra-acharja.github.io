@@ -1,5 +1,5 @@
 ---
-author: "Indra P. Acharja"
+author: "Indra Acharja"
 date: "2025-03-15"
 title: "How do you save a bird with fewer than 60 individuals? We built a model to find out"
 description: "Using integrated population modelling and Bayesian viability analysis, our new study identifies which conservation actions give the White-bellied Heron its best chance of survival."
@@ -55,4 +55,4 @@ The White-bellied Heron does not have the luxury of waiting for perfect informat
 
 *The full study — "Investigation of effective conservation measures for the critically endangered White-bellied Heron* Ardea insignis *using an integrated population model and Bayesian population viability analysis" — is published in* Avian Conservation and Ecology, 20(1):19 *(2025) and is freely available at [doi.org/10.5751/ACE-02833-200119](https://doi.org/10.5751/ACE-02833-200119).*
 
-*Authors: Indra P. Acharja, Yuji Okahisa, M. Clay Green, Thinley Lhendup, Sonam Tshering, Thinley Phuntsho, Tshering Tobgay, Lungten Lungten, Jigme Tshering, Sangay Leki.*
+*Authors: Indra Acharja, Yuji Okahisa, M. Clay Green, Thinley Lhendup, Sonam Tshering, Thinley Phuntsho, Tshering Tobgay, Lungten Lungten, Jigme Tshering, Sangay Leki.*

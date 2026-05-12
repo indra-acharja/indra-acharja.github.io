@@ -1,5 +1,5 @@
 ---
-author: "Indra P. Acharja"
+author: "Indra Acharja"
 date: "2026-05-09"
 title: "A heron on the edge: what ten years of nest watching tells us about one of the world's rarest birds"
 description: "Our new study tracking White-bellied Heron nests in Bhutan over a decade reveals something troubling — and urgent."
@@ -59,4 +59,4 @@ Ten years of watching these nests has convinced me that the White-bellied Heron 
 
 *The full study — "Increasing variability and declining breeding success: A major challenge in the conservation of the critically endangered* Ardea insignis *(White-bellied Heron)" — is published in* Ornithology *and is available at [doi.org/10.1093/ornithology/ukag017](https://doi.org/10.1093/ornithology/ukag017).*
 
-*Authors: Indra P. Acharja, M. Clay Green, Yuji Okahisa, Thinley Phuntsho, Tshering Tobgay, Pema Khandu, Satoshi Shimano.*
+*Authors: Indra Acharja, M. Clay Green, Yuji Okahisa, Thinley Phuntsho, Tshering Tobgay, Pema Khandu, Satoshi Shimano.*

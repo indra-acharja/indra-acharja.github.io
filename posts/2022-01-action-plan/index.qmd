@@ -1,5 +1,5 @@
 ---
-author: "Indra P. Acharja"
+author: "Indra Acharja"
 date: "2022-01-01"
 title: "Ten years to turn the tide: Bhutan's plan to save the White-bellied Heron"
 description: "With fewer than 60 birds left globally, the White-bellied Heron needed more than goodwill — it needed a plan. Here is what Bhutan committed to doing, and why the next ten years matter more than any before."
@@ -8,10 +8,10 @@ image: "photo_mangdechhu_fog.jpg"
 ---
 
 ::: {style="margin: 2rem 0;"}
-![*Early morning fog over the Mangdechhu River valley — one of three major river basins in Bhutan where White-bellied Herons are found. © Indra P. Acharja/RSPN*](photo_mangdechhu_fog.jpg)
+![*Early morning fog over the Mangdechhu River valley — one of three major river basins in Bhutan where White-bellied Herons are found. © Indra Acharja/RSPN*](photo_mangdechhu_fog.jpg)
 :::
 
-There are fewer than 60 White-bellied Herons left on Earth. Not fewer than 60 in Bhutan — fewer than 60 anywhere: across the entire range of the species, from Bhutan and India to Myanmar and Bangladesh. Of those, roughly 25 to 30 live and breed in Bhutan — about 40 percent of the global population, concentrated along three river systems in the country's south and centre.
+There are fewer than 60 White-bellied Herons left on Earth. Not fewer than 60 in Bhutan — fewer than 60 anywhere: across the entire range of the species, from Bhutan and India to Myanmar and China. Of those, roughly 25 to 30 live and breed in Bhutan — about 40 percent of the global population, concentrated along three river systems in the country's south and centre.
 
 That number alone should tell you everything about the stakes. But a number, however alarming, does not by itself protect a bird. What it needs is a plan — specific actions, assigned responsibilities, clear targets, and real money behind them. In 2022, the Royal Society for Protection of Nature (RSPN), in partnership with the Department of Forests and Park Services, published exactly that: the White-bellied Heron Conservation Action Plan 2022–2031.
 
@@ -24,7 +24,7 @@ Both targets matter. The wild target means growing and stabilising a population 
 ## Why the species is still declining
 
 ::: {style="float: right; margin: 0 0 1.2rem 2rem; max-width: 360px;"}
-![*A White-bellied Heron waits out the monsoon floods above the Punatsangchhu River at Rilangthang — when entire feeding stretches are inundated, the birds are forced to perch and wait. Bhutan. © Indra P. Acharja/RSPN*](photo_heron_monsoon.jpg)
+![*A White-bellied Heron waits out the monsoon floods above the Punatsangchhu River at Rilangthang — when entire feeding stretches are inundated, the birds are forced to perch and wait. Bhutan. © Indra Acharja/RSPN*](photo_heron_monsoon.jpg)
 :::
 
 The action plan is honest about what is driving the decline. Hydropower development has altered the rivers the herons depend on — changing flow regimes, submerging feeding areas, and fragmenting the long stretches of undisturbed gravel bank and shallow water that the birds need to hunt. Sand and gravel extraction from riverbeds continues at nest sites and feeding grounds. Human disturbance during the breeding season — from settlements, livestock, and activity near nest trees — causes nest abandonment. And climate change is beginning to shift monsoon patterns and river behaviour in ways that are hard to predict but unlikely to help.
@@ -45,12 +45,12 @@ The action plan organises its response around six strategic objectives:
 
 **5. Engaging communities.** Involving local communities near nest sites in monitoring and protection, developing livelihood alternatives where traditional activities conflict with conservation, and building long-term local ownership of the species' future.
 
-**6. International cooperation.** Coordinating with range countries — India, Myanmar, Bangladesh — to share data, harmonise survey methods, and develop a transboundary picture of the species' status.
+**6. International cooperation.** Coordinating with range countries — India, Myanmar, and China — to share data, harmonise survey methods, and develop a transboundary picture of the species' status.
 
 ## What it costs — and what the gap looks like
 
 ::: {style="margin: 2rem 0;"}
-![*An adult White-bellied Heron stands guard beside the nest while fledglings rest after being fed, Tsanding nest site, Zhemgang, Mangdechhu basin, Bhutan. © Indra P. Acharja/RSPN*](photo_adult_fledglings.jpg)
+![*An adult White-bellied Heron stands guard beside the nest while fledglings rest after being fed, Tsanding nest site, Zhemgang, Mangdechhu basin, Bhutan. © Indra Acharja/RSPN*](photo_adult_fledglings.jpg)
 :::
 
 Implementing the plan over ten years requires approximately Nu. 370 million — roughly US$3.4 million. That is not a large number in conservation terms. But currently, only a fraction of that is covered. The White-bellied Heron Endowment Fund, supported by the Mava Foundation, covers core operational costs at the Conservation Center. Broader habitat protection, community engagement, and research work remain underfunded.

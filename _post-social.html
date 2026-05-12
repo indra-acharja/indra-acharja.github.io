@@ -24,21 +24,9 @@
 /* ── Author/date at bottom ── */
 .post-meta-bottom {
   font-family: 'Outfit', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: #7a7060;
   margin-bottom: 1.2rem;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.post-meta-bottom span strong {
-  font-weight: 600;
-  color: #4a4038;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-size: 0.7rem;
-  display: block;
-  margin-bottom: 0.2rem;
 }
 /* ── Share bar ── */
 .post-social-bar {
@@ -180,17 +168,17 @@
     // Insert custom header as first child of main
     mainEl.insertBefore(header, mainEl.firstChild);
 
-    // Move author/date to bottom
+    // Move author/date to bottom as single "By Name · Date" line
     var bottomEl = document.getElementById('post-meta-bottom');
     if (metaEl && bottomEl) {
-      var headings = metaEl.querySelectorAll('.quarto-title-meta-heading');
-      var contents = metaEl.querySelectorAll('.quarto-title-meta-contents');
-      headings.forEach(function(h, i) {
-        var span = document.createElement('span');
-        span.innerHTML = '<strong>' + h.textContent.trim() + '</strong>' +
-                         (contents[i] ? contents[i].textContent.trim() : '');
-        bottomEl.appendChild(span);
-      });
+      var authorEl = metaEl.querySelector('p.author');
+      var dateEl   = metaEl.querySelector('p.date');
+      var authorName = authorEl ? authorEl.textContent.trim() : '';
+      var dateStr    = dateEl   ? dateEl.textContent.trim()   : '';
+      var parts = [];
+      if (authorName) parts.push('By ' + authorName);
+      if (dateStr)    parts.push(dateStr);
+      bottomEl.textContent = parts.join(' · ');
     }
 
     // Hide original title block

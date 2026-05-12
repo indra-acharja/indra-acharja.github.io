@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Indra P. Acharja">
+<meta name="author" content="Indra Acharja">
 <meta name="dcterms.date" content="2025-09-21">
 <meta name="description" content="The term ‘climate-smart’ has become a marketing label. Here is what it actually takes for a project to earn that name — and why Bhutan should care.">
 
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Indra P. Acharja </p>
+             <p>Indra Acharja </p>
           </div>
   </div>
     
@@ -216,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <p>That urgency is exactly why the standard matters. If climate-smart comes to mean nothing in particular, then nothing in particular will be done to prepare for what is coming.</p>
 <p>The term deserves to be taken seriously. That means using it only when the evidence supports it — and being honest, clearly and publicly, when it does not.</p>
 <hr>
-<p><em>Indra P. Acharja is a doctoral researcher at Texas State University and a conservation biologist specializing in the White-bellied Heron and Himalayan freshwater ecosystems.</em></p>
+<p><em>Indra Acharja is a doctoral researcher at Texas State University and a conservation biologist specializing in the White-bellied Heron and Himalayan freshwater ecosystems.</em></p>
 
 
 </section>
@@ -248,21 +248,9 @@ ul.task-list li input[type="checkbox"] {
 /* ── Author/date at bottom ── */
 .post-meta-bottom {
   font-family: 'Outfit', sans-serif;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: #7a7060;
   margin-bottom: 1.2rem;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.post-meta-bottom span strong {
-  font-weight: 600;
-  color: #4a4038;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-size: 0.7rem;
-  display: block;
-  margin-bottom: 0.2rem;
 }
 /* ── Share bar ── */
 .post-social-bar {
@@ -390,17 +378,17 @@ ul.task-list li input[type="checkbox"] {
     // Insert custom header as first child of main
     mainEl.insertBefore(header, mainEl.firstChild);
 
-    // Move author/date to bottom
+    // Move author/date to bottom as single "By Name · Date" line
     var bottomEl = document.getElementById('post-meta-bottom');
     if (metaEl && bottomEl) {
-      var headings = metaEl.querySelectorAll('.quarto-title-meta-heading');
-      var contents = metaEl.querySelectorAll('.quarto-title-meta-contents');
-      headings.forEach(function(h, i) {
-        var span = document.createElement('span');
-        span.innerHTML = '<strong>' + h.textContent.trim() + '</strong>' +
-                         (contents[i] ? contents[i].textContent.trim() : '');
-        bottomEl.appendChild(span);
-      });
+      var authorEl = metaEl.querySelector('p.author');
+      var dateEl   = metaEl.querySelector('p.date');
+      var authorName = authorEl ? authorEl.textContent.trim() : '';
+      var dateStr    = dateEl   ? dateEl.textContent.trim()   : '';
+      var parts = [];
+      if (authorName) parts.push('By ' + authorName);
+      if (dateStr)    parts.push(dateStr);
+      bottomEl.textContent = parts.join(' · ');
     }
 
     // Hide original title block

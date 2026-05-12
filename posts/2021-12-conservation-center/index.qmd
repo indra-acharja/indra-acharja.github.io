@@ -1,5 +1,5 @@
 ---
-author: "Indra P. Acharja"
+author: "Indra Acharja"
 date: "2021-12-01"
 title: "A new home for the world's rarest heron: inside Bhutan's White-bellied Heron Conservation Center"
 description: "In 2021, RSPN established the world's first dedicated conservation breeding facility for the White-bellied Heron — collecting wild chicks, hand-raising them, and building the foundation for a species' future."
@@ -8,7 +8,7 @@ image: "photo_team_chicks.jpg"
 ---
 
 ::: {style="margin: 2rem 0;"}
-![*The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Indra P. Acharja/RSPN*](photo_center_aerial.jpg)
+![*The White-bellied Heron Conservation Center at Chachey Dovan, Tsirang — nestled in the forest on a plateau above the Punatsangchhu River. The circular structures are the aviaries; the facility also houses a laboratory, veterinary centre, and public education facilities. © Indra Acharja/RSPN*](photo_center_aerial.jpg)
 :::
 
 For a species with fewer than 60 individuals left in the wild, every bird matters. And for the first time, in 2021, three of those birds came to live not on a cliff-hanging nest above a Bhutanese river, but in a purpose-built facility designed to give them — and their species — a future beyond what the wild alone can guarantee.
