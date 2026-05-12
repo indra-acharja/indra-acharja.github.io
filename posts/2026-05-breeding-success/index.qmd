@@ -4,7 +4,7 @@ date: "2026-05-09"
 title: "A heron on the edge: what ten years of nest watching tells us about one of the world's rarest birds"
 description: "Our new study tracking White-bellied Heron nests in Bhutan over a decade reveals something troubling — and urgent."
 categories: [Research, White-bellied Heron, Bhutan, Breeding Biology]
-image: ""
+image: "p1_nest_building.jpg"
 ---
 
 High on the banks of the Punatsangchhu River in Bhutan, in a tall tree overhanging fast-moving water, a pair of herons is building a nest. They have used this same tree, in this same stretch of river, for years. If you were walking below, you might not notice them at all — they are silent, still, and almost impossibly well-hidden for birds that stand nearly a metre tall.
@@ -16,6 +16,14 @@ For the past ten years, my colleagues and I have been watching those nests — c
 ## What we did — and why nests matter
 
 We monitored every known active White-bellied Heron nest in Bhutan between 2016 and 2025. Every few days during the breeding season, we checked in — recording when eggs were laid, how many hatched, how many chicks survived to fly, and what went wrong when they did not. We also deployed remote cameras at nest sites so we could observe behaviour without disturbing the birds.
+
+::: {style="float: right; margin: 0 0 1.2rem 2rem; max-width: 340px;"}
+![*An adult male White-bellied Heron delivers nesting material while his partner incubates below, Bertichu nest site, Zhemgang, Bhutan. © Indra Acharja/RSPN*](p1_nest_building.jpg)
+:::
+
+::: {style="margin: 2rem 0;"}
+![*A pair of White-bellied Herons alert to movement near the nest at 3:24 AM, captured by remote camera trap, Punatsangchhu River, Bhutan, March 2023. © Indra Acharja/RSPN*](p4_night_camera.jpg)
+:::
 
 For a species this rare, every nest is critically important. With only three or four breeding pairs in the entire country — and Bhutan holding the largest known population in the world — the output of those nests is not just a number. It is the species' future.
 
@@ -37,6 +45,10 @@ For most birds, the ability to re-nest after failure is a crucial safety net. Fo
 
 Nests failed for a range of reasons. Predators — including monkeys and small carnivores — were responsible for some losses. Severe weather damaged nests and eggs. Human disturbance played a role. In a handful of deeply unusual cases, we documented parental infanticide — a behaviour that has been recorded only rarely in herons and speaks to the extraordinary stress these birds face.
 
+::: {style="margin: 2rem 0;"}
+![*An adult White-bellied Heron flees as a monkey raids the nest — primate predation was among the documented causes of nest failure during the study. © Indra Acharja/RSPN*](p3_monkey_attack.jpg)
+:::
+
 Nearly half of all monitored nests — 45% — failed before producing fledglings.
 
 ## Why this matters beyond Bhutan
@@ -50,6 +62,10 @@ A population this small cannot absorb sustained breeding failure. When fewer chi
 ## There is still time — but not much
 
 The White-bellied Heron has not disappeared yet. Pairs are still nesting, still raising some chicks, still returning to the same rivers year after year with the kind of fidelity that speaks to a deep, evolved connection to place.
+
+::: {style="float: left; margin: 0 2rem 1.2rem 0; max-width: 300px;"}
+![*An adult White-bellied Heron feeds juveniles on the riverbank at Rilangthang, Punatsangchhu, Bhutan — one of the successful breeding outcomes recorded during the study. © Indra Acharja/RSPN*](p2_feeding_juveniles.jpg)
+:::
 
 But the margin is narrowing. Our data suggest that without active intervention — protecting nesting sites from disturbance, understanding and addressing the drivers of late and failed breeding, and maintaining the ex-situ population as an insurance against catastrophic loss — the wild population may not be able to sustain itself.
 
