@@ -1,4 +1,4 @@
-# Quarto cache & freeze — regenerated on every render
+# Quarto build cache — regenerated on every render
 /.quarto/
 **/*.quarto_ipynb
 
@@ -11,6 +11,15 @@
 # Claude Code local settings
 /.claude/
 
-# Source photos — Quarto copies these into docs/photos/ at render time
-# Keep locally; docs/photos/ (the served copies) stay tracked
+# Source photos — rendered copies are served from docs/
 /photos/
+
+# Quarto source files — edited and rendered locally; only docs/ is published to GitHub
+*.qmd
+styles.css
+_post-social.html
+_post-top.html
+_quarto.yml
+/posts/
+.nojekyll
+README.md
