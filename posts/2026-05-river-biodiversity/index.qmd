@@ -47,15 +47,16 @@ The 2022 survey — which covered more than 600 kilometres of river in four majo
 
 For context: Bhutan has around 770 recorded bird species. The WBH survey, covering a fraction of the country's area in a fraction of the year, captures close to forty percent of that total in five days. This is not an accident. It reflects where those surveys are conducted — along the river corridors that function as the ecological arteries of the entire landscape.
 
-::: {style="margin: 2rem 0;"}
-![*A Sultan Tit (*Melanochlora sultanea*) in a riverside forest along the WBH survey corridor. Among the most charismatic of the forest birds recorded during annual surveys, Sultan Tits use the intact riparian canopy that the heron and many other species depend on. Bhutan. © Indra Acharja/RSPN*](p2_sultan_tit.jpg)
+::: {style="display: flex; gap: 1.2rem; margin: 2rem 0; align-items: flex-start;"}
+::: {style="flex: 1; min-width: 0;"}
+![*A Sultan Tit (*Melanochlora sultanea*) in a riverside forest along the WBH survey corridor. Bhutan. © Indra Acharja/RSPN*](p2_sultan_tit.jpg)
+:::
+::: {style="flex: 1; min-width: 0;"}
+![*A Scarlet Finch (*Haematospiza sipahi*) sheltering from the monsoon rain in a riverside forest — one of hundreds of bird species documented incidentally during WBH surveys. Bhutan. © Indra Acharja/RSPN*](p1_scarlet_finch.jpg)
+:::
 :::
 
 Among the birds recorded are some of the most ecologically significant species in South Asia. Pallas's Fish Eagle, listed as Endangered, appears in the surveys every year — a large, powerful raptor that hunts the same stretches of river as the heron. The Great Hornbill, Rufous-necked Hornbill, and Wreathed Hornbill — all classified as Vulnerable — are regularly documented in the riparian forests flanking WBH habitat. River Lapwings, one of the most specialised riverine birds in the Himalayan foothills, were counted at eighty-two individuals in a single 2022 survey. River Terns forage the same confluences. Ibisbills — cryptically grey and almost supernaturally camouflaged against gravel bars — appear in the upper stretches. Spotted, Slaty-backed, Black-backed, and White-crowned Forktails flash along almost every surveyed stream.
-
-::: {style="margin: 2rem 0;"}
-![*A Scarlet Finch (*Haematospiza sipahi*) sheltering from the monsoon rain in a riverside forest — one of hundreds of bird species documented incidentally during White-bellied Heron population surveys. These records collectively represent one of the most comprehensive ongoing bird datasets in the eastern Himalayas. Bhutan. © Indra Acharja/RSPN*](p1_scarlet_finch.jpg)
-:::
 
 The scale of waterbird activity is equally striking. In 2022, Great Cormorants were recorded at 227 individuals across the survey area. Ruddy Shelducks — migratory birds that winter on Himalayan rivers and breed at high altitude — were counted at 249 individuals, the highest single-species count that year. Goosanders, Green Sandpipers, Common Kingfishers, and Crested Kingfishers all use the same channels. Osprey hunt the deeper pools. Tawny Fish Owls work the banks after dark.
 
