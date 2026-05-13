@@ -48,7 +48,19 @@ The 2022 survey — which covered more than 600 kilometres of river in four majo
 For context: Bhutan has around 770 recorded bird species. The WBH survey, covering a fraction of the country's area in a fraction of the year, captures close to forty percent of that total in five days. This is not an accident. It reflects where those surveys are conducted — along the river corridors that function as the ecological arteries of the entire landscape.
 
 ::: {style="margin: 2rem 0;"}
-![*A Sultan Tit (*Melanochlora sultanea*) in a riverside forest along the WBH survey corridor. Among the most charismatic of the forest birds recorded during annual surveys, Sultan Tits use the intact riparian canopy that the heron and many other species depend on. Bhutan. © Indra Acharja/RSPN*](p2_sultan_tit.jpg)
+![*A Pallas's Fish Eagle (*Haliaeetus leucoryphus*, Endangered) hunts over the Punatsangchhu River — one of the most powerful raptors recorded annually during WBH surveys, sharing the same river stretches as the herons. Bhutan. © Indra Acharja/RSPN*](API-318.jpg)
+:::
+
+::: {style="display: flex; gap: 1rem; margin: 2rem 0; align-items: flex-start;"}
+::: {style="flex: 1; min-width: 0;"}
+![*Rufous-necked Hornbill (*Aceros nipalensis*, Vulnerable) in riparian forest along the survey corridor. Bhutan. © Indra Acharja/RSPN*](API-480.jpg)
+:::
+::: {style="flex: 1; min-width: 0;"}
+![*Great Hornbill (*Buceros bicornis*, Vulnerable) in flight over the river valley. Bhutan. © Indra Acharja/RSPN*](API-300.jpg)
+:::
+::: {style="flex: 1; min-width: 0;"}
+![*River Lapwing (*Vanellus duvaucelii*) foraging on a rocky gravel bar — a specialist of fast-flowing Himalayan rivers counted at 82 individuals in the 2022 survey alone. Bhutan. © Indra Acharja/RSPN*](API-347.jpg)
+:::
 :::
 
 Among the birds recorded are some of the most ecologically significant species in South Asia. Pallas's Fish Eagle, listed as Endangered, appears in the surveys every year — a large, powerful raptor that hunts the same stretches of river as the heron. The Great Hornbill, Rufous-necked Hornbill, and Wreathed Hornbill — all classified as Vulnerable — are regularly documented in the riparian forests flanking WBH habitat. River Lapwings, one of the most specialised riverine birds in the Himalayan foothills, were counted at eighty-two individuals in a single 2022 survey. River Terns forage the same confluences. Ibisbills — cryptically grey and almost supernaturally camouflaged against gravel bars — appear in the upper stretches. Spotted, Slaty-backed, Black-backed, and White-crowned Forktails flash along almost every surveyed stream.
