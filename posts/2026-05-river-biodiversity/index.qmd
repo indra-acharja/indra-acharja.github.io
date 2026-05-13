@@ -12,7 +12,7 @@ There is a bird in Bhutan that almost no one has ever seen. It stands nearly a m
 The White-bellied Heron (*Ardea insignis*) is one of the rarest birds on the planet. And for the past twenty-three years, the Royal Society for Protection of Nature has been counting every individual it can find.
 
 ::: {style="margin: 2rem 0;"}
-![*Two juvenile White-bellied Herons at a pine-tree nest site — moments like this, of successful breeding in undisturbed river habitat, are extraordinarily rare for a species with fewer than sixty individuals remaining worldwide. Punatsangchhu basin, Bhutan. © Indra Acharja/RSPN*](API-469.jpg)
+![*Two juvenile White-bellied Herons at a pine-tree nest site — moments like this, of successful breeding in undisturbed river habitat, are extraordinarily rare for a species with fewer than sixty individuals remaining worldwide. Punatsangchhu basin, Bhutan. © Indra Acharja*](API-469.jpg)
 :::
 
 What began in 2003 as a modest attempt to document where these herons lived has grown into one of the most consistent wildlife monitoring programmes in the eastern Himalayas. Each year, from late February to early March, more than eighty surveyors fan out across Bhutan's major river systems — walking riverbanks, scanning riverine forests, watching confluences at dawn and dusk — recording every heron they see. And every other creature they see alongside it.
@@ -48,29 +48,29 @@ The 2022 survey — which covered more than 600 kilometres of river in four majo
 For context: Bhutan has around 770 recorded bird species. The WBH survey, covering a fraction of the country's area in a fraction of the year, captures close to forty percent of that total in five days. This is not an accident. It reflects where those surveys are conducted — along the river corridors that function as the ecological arteries of the entire landscape.
 
 ::: {style="margin: 2rem 0;"}
-![*A Pallas's Fish Eagle (*Haliaeetus leucoryphus*, Endangered) hunts over the Punatsangchhu River — one of the most powerful raptors recorded annually during WBH surveys, sharing the same river stretches as the herons. Bhutan. © Indra Acharja/RSPN*](API-318.jpg)
+![*A Pallas's Fish Eagle (*Haliaeetus leucoryphus*, Endangered) hunts over the Punatsangchhu River — one of the most powerful raptors recorded annually during WBH surveys, sharing the same river stretches as the herons. Bhutan. © Indra Acharja*](API-318.jpg)
 :::
 
 ::: {style="display: flex; gap: 1rem; margin: 2rem 0; align-items: flex-start;"}
 ::: {style="flex: 1; min-width: 0;"}
-![*Rufous-necked Hornbill (*Aceros nipalensis*, Vulnerable) in riparian forest along the survey corridor. Bhutan. © Indra Acharja/RSPN*](API-480.jpg)
+![*Rufous-necked Hornbill (*Aceros nipalensis*, Vulnerable) in riparian forest along the survey corridor. Bhutan. © Indra Acharja*](API-480.jpg)
 :::
 ::: {style="flex: 1; min-width: 0;"}
-![*Great Hornbill (*Buceros bicornis*, Vulnerable) in flight over the river valley. Bhutan. © Indra Acharja/RSPN*](API-300.jpg)
+![*Great Hornbill (*Buceros bicornis*, Vulnerable) in flight over the river valley. Bhutan. © Indra Acharja*](API-300.jpg)
 :::
 ::: {style="flex: 1; min-width: 0;"}
-![*Ibisbill (*Ibidorhyncha struthersii*) foraging among the boulders of a fast-flowing Himalayan river — cryptically camouflaged against gravel bars and one of the most specialised riverine birds in Asia. Bhutan. © Indra Acharja/RSPN*](API-347.jpg)
+![*Ibisbill (*Ibidorhyncha struthersii*) foraging among the boulders of a fast-flowing Himalayan river — cryptically camouflaged against gravel bars and one of the most specialised riverine birds in Asia. Bhutan. © Indra Acharja*](API-347.jpg)
 :::
 :::
 
 Among the birds recorded are some of the most ecologically significant species in South Asia. Pallas's Fish Eagle, listed as Endangered, appears in the surveys every year — a large, powerful raptor that hunts the same stretches of river as the heron. The Great Hornbill, Rufous-necked Hornbill, and Wreathed Hornbill — all classified as Vulnerable — are regularly documented in the riparian forests flanking WBH habitat. River Lapwings, one of the most specialised riverine birds in the Himalayan foothills, were counted at eighty-two individuals in a single 2022 survey. River Terns forage the same confluences. Ibisbills — cryptically grey and almost supernaturally camouflaged against gravel bars — appear in the upper stretches. Spotted, Slaty-backed, Black-backed, and White-crowned Forktails flash along almost every surveyed stream.
 
-The scale of waterbird activity is equally striking. In 2022, Great Cormorants were recorded at 227 individuals across the survey area. Ruddy Shelducks — migratory birds that winter on Himalayan rivers and breed at high altitude — were counted at 249 individuals, the highest single-species count that year. Goosanders, Green Sandpipers, Common Kingfishers, and Crested Kingfishers all use the same channels. Osprey hunt the deeper pools. Tawny Fish Owls work the banks after dark.
+The scale of waterbird activity is equally striking. In 2022, Great Cormorants were recorded at 227 individuals across the survey area. Ruddy Shelducks — migratory birds that winter on Himalayan rivers and breed in southeastern Europe and central Asia — were counted at over 800 individuals, the highest single-species count that year. Goosanders, Green Sandpipers, Common Kingfishers, and Crested Kingfishers all use the same channels. Osprey hunt the deeper pools. Tawny Fish Owls work the banks after dark.
 
 The mammals are no less remarkable. The surveys consistently document Smooth-coated Otters — Vulnerable under the IUCN Red List — hunting in the rivers alongside the herons. Asian Small-clawed Otters appear too, as do Eurasian Otters, making Bhutan's major river systems among the few places on earth where three otter species share the same watershed.
 
 ::: {style="margin: 2rem 0;"}
-![*A Golden Langur (*Trachypithecus geei*, Endangered) in the riparian forest of Bhutan's WBH survey zone — one of the world's most threatened primates, endemic to a narrow range in Bhutan and adjacent India. Ninety-seven individuals were recorded during the 2022 survey alone. © Indra Acharja/RSPN*](p3_capped_langur.jpg)
+![*A Golden Langur (*Trachypithecus geei*, Endangered) in the riparian forest of Bhutan's WBH survey zone — one of the world's most threatened primates, endemic to a narrow range in Bhutan and adjacent India. Ninety-seven individuals were recorded during the 2022 survey alone. © Indra Acharja*](p3_capped_langur.jpg)
 :::
 
 Golden Langurs, one of the world's most threatened primates and a species endemic to a narrow range in Bhutan and adjacent India, were recorded at 97 individuals in the 2022 survey alone, moving through the riverside forests of the Punatsangchhu and Mangdechhu basins. Capped Langurs, also Vulnerable, were counted at 50 individuals. Bengal Slow Loris — nocturnal, elusive, Endangered, and legally protected worldwide — appear in the records. Asiatic Black Bears forage the riparian margins. Asian Elephants move along the river plains of the south. Gaur, Dhole, Himalayan Serow, Sambar Deer, and Himalayan Goral all show up in the survey data.
@@ -80,7 +80,7 @@ These are not species one expects to encounter as incidental sightings during a 
 ## Why rivers carry so much
 
 ::: {style="margin: 2rem 0;"}
-![*Berti village sits beside the confluence of the Mangdechhu and Berti rivers in Zhemgang, Bhutan — one of the most ecologically intact valleys in the White-bellied Heron's range, and among the most productive wildlife corridors in Asia. © Indra Acharja/RSPN*](p4_berti_river.jpg)
+![*Berti village sits beside the confluence of the Mangdechhu and Berti rivers in Zhemgang, Bhutan — one of the most ecologically intact valleys in the White-bellied Heron's range, and among the most productive wildlife corridors in Asia. © Indra Acharja*](p4_berti_river.jpg)
 :::
 
 To understand why these river corridors hold so much life, it helps to think about what a river actually is in the context of a mountain country like Bhutan.
@@ -91,9 +91,9 @@ The altitude range of the WBH survey zones — 150 to 1,800 metres — captures 
 
 The reason is structural. River corridors in mountain landscapes function as biological corridors — pathways that connect habitat patches that would otherwise be isolated from one another. In Bhutan, the steep forested ridges between river basins can be formidable barriers to movement for many species. But the river valleys provide passages: lower in altitude, less exposed, with reliable water and food, and connected, ultimately, to the warm lowlands of the south. Animals move up and down these valleys following seasonal resources — the fish runs that draw otters and eagles upriver in some months, the fruit and leaf flush in riverside forests that draws langurs and hornbills, the insects and amphibians that support a cascade of smaller predators.
 
-For birds, the picture is even more dynamic. Bhutan sits astride two major migratory flyways: the Central Asian Flyway and the East Asia-Australasian Flyway. The river corridors are not incidental to that geography — they are integral to it. For waterbirds moving between their Himalayan and Tibetan Plateau breeding grounds and their overwintering areas in the Indian subcontinent, the river valleys provide sheltered, resource-rich stopover sites. The 249 Ruddy Shelducks recorded in the 2022 survey were not residents: they were migrants pausing in transit. The Common Sandpipers, Green Sandpipers, and various ducks recorded across the surveys are similarly transient, using the rivers as refuelling stops during journeys of hundreds or thousands of kilometres.
+For birds, the picture is even more dynamic. Bhutan sits astride two major migratory flyways: the Central Asian Flyway and the East Asia-Australasian Flyway. The river corridors are not incidental to that geography — they are integral to it. For waterbirds moving between their Himalayan and Tibetan Plateau breeding grounds and their overwintering areas in the Indian subcontinent, the river valleys provide sheltered, resource-rich stopover sites. The hundreds Ruddy Shelducks recorded in the 2022 survey were not residents: they were migrants pausing in transit. The Common Sandpipers, Green Sandpipers, and various ducks recorded across the surveys are similarly transient, using the rivers as refuelling stops during journeys of hundreds or thousands of kilometres.
 
-Even for species that do not migrate, the rivers serve as refuges during the hardest months of the year. In winter, when the high-altitude forests become cold, snowbound, and food-poor, many species descend into the river valleys, where the water remains open, the microclimate is milder, and food — in the form of fish, invertebrates, seeds, and fruits — remains available. The Brown Dippers recorded in the surveys, nearly a hundred individuals counted in 2022, are year-round residents of fast-flowing streams who depend on the river channels remaining ice-free. The Black Storks that appear each winter are coming down from Tibetan breeding grounds. The Wallcreepers that creep up cliff faces in the river gorges are mountain specialists wintering low.
+Even for species that do not migrate, the rivers serve as refuges during the hardest months of the year. In winter, when the high-altitude forests become cold, snowbound, and food-poor, many species descend into the river valleys, where the water remains open, the microclimate is milder, and food — in the form of fish, invertebrates, seeds, and fruits — remains available. The Brown Dippers recorded in the surveys, nearly a hundred individuals counted in 2022, are year-round residents of fast-flowing streams who depend on the river channels remaining ice-free. The Black-necked Crane that appear each winter are coming down from Tibetan breeding grounds. The Wallcreepers that creep up cliff faces in the river gorges are mountain specialists wintering low.
 
 What the WBH surveys are capturing, then, is not just the ecology of a single river reach in a single season. They are capturing a system: a network of flowing water that connects the high Himalayas to the subtropical plains, that provides corridors for movement, refuges for survival, and the physical substrate — clean water, fish, insects, intact forest — that makes all of this possible.
 
