@@ -323,11 +323,24 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
   cursor: pointer;
   transition: all 0.18s ease;
   font-family: 'Outfit', sans-serif;
-  margin-left: auto;
 }
 .like-btn:hover { border-color: #c0392b; color: #c0392b; }
 .like-btn.liked { border-color: #c0392b; color: #c0392b; background: #fdf0ee; }
 .like-btn .heart { font-size: 1rem; }
+.view-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1.5px solid #ccc8c0;
+  border-radius: 20px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.82rem;
+  color: #888;
+  font-family: 'Outfit', sans-serif;
+  white-space: nowrap;
+  margin-left: auto;
+}
+.view-count svg { width: 13px; height: 13px; flex-shrink: 0; opacity: 0.65; }
 .post-comments-section {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
@@ -355,6 +368,10 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
       <span class="heart" id="likeHeart">♡</span>
       <span id="likeCount">0</span>
     </button>
+    <span class="view-count" id="viewCountBadge" title="Page visits">
+      <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+      <span id="viewCountNum">—</span>
+    </span>
   </div>
 </div>
 
@@ -454,6 +471,16 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
       setTimeout(function() { btn.textContent = '🔗'; btn.classList.remove('copied'); }, 2000);
     });
   };
+
+  // ── Page visit counter ──
+  var pageKey = window.location.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '-') || 'home';
+  fetch('https://api.counterapi.dev/v1/ia-site/' + pageKey + '/up')
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      var el = document.getElementById('viewCountNum');
+      if (el && d.count != null) el.textContent = d.count;
+    })
+    .catch(function() {});
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
