@@ -458,13 +458,11 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
     });
   };
 
-  // ── Page visit counter (hits.seeyoufarm.com) ──
+  // ── Page visit counter (hits.sh) ──
   var img = document.getElementById('viewHitsImg');
   if (img) {
-    var pageUrl = encodeURIComponent('https://indra-acharja.github.io' + window.location.pathname);
-    img.src = 'https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=' + pageUrl
-      + '&count_bg=%232a6b7c&title_bg=%23ccc8c0&icon=eye&icon_color=%23ffffff'
-      + '&title=views&edge_flat=true';
+    var path = window.location.pathname.replace(/\/$/, '');
+    img.src = 'https://hits.sh/indra-acharja.github.io' + path + '.svg';
   }
 })();
 </script>
