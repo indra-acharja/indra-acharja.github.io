@@ -324,17 +324,10 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
 .view-count {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  border: 1.5px solid #ccc8c0;
-  border-radius: 20px;
-  padding: 0.3rem 0.85rem;
-  font-size: 0.82rem;
-  color: #888;
-  font-family: 'Outfit', sans-serif;
-  white-space: nowrap;
   margin-left: auto;
+  line-height: 0;
 }
-.view-count svg { width: 13px; height: 13px; flex-shrink: 0; opacity: 0.65; }
+.view-count img { height: 22px; border-radius: 20px; display: block; }
 .post-comments-section {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
@@ -363,8 +356,7 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
       <span id="likeCount">0</span>
     </button>
     <span class="view-count" id="viewCountBadge" title="Page visits">
-      <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-      <span id="viewCountNum">—</span>
+      <img id="viewHitsImg" alt="page views">
     </span>
   </div>
 </div>
@@ -466,15 +458,14 @@ gtag('config', 'G-L66C8J7R5P', { 'anonymize_ip': true});
     });
   };
 
-  // ── Page visit counter ──
-  var pageKey = window.location.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '-') || 'home';
-  fetch('https://api.counterapi.dev/v1/ia-site/' + pageKey + '/up')
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      var el = document.getElementById('viewCountNum');
-      if (el && d.count != null) el.textContent = d.count;
-    })
-    .catch(function() {});
+  // ── Page visit counter (hits.seeyoufarm.com) ──
+  var img = document.getElementById('viewHitsImg');
+  if (img) {
+    var pageUrl = encodeURIComponent('https://indra-acharja.github.io' + window.location.pathname);
+    img.src = 'https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=' + pageUrl
+      + '&count_bg=%232a6b7c&title_bg=%23ccc8c0&icon=eye&icon_color=%23ffffff'
+      + '&title=views&edge_flat=true';
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
